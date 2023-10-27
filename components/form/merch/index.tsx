@@ -110,7 +110,7 @@ const Merchandise = () => {
               <div className="grid xl:grid-cols-2 gap-x-5 ">
                 <input
                   type="text"
-                  placeholder="Company Name"
+                  placeholder="Brand Name"
                   value={form.company_name}
                   onChange={(e) =>
                     setForm({ ...form, company_name: e.target.value })
@@ -121,7 +121,7 @@ const Merchandise = () => {
 
                 <input
                   type="text"
-                  placeholder="County"
+                  placeholder="Country"
                   value={form.country}
                   onChange={(e) =>
                     setForm({ ...form, country: e.target.value })
