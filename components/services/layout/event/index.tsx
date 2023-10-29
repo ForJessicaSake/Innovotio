@@ -11,7 +11,7 @@ import VendorPlanning from "../../../../public/assets/services/vendorPlanning.sv
 
 const Event = () => {
   return (
-    <section className="lg:pt-20 pt-14 text-text">
+    <section className="lg:pt-24 pt-14 text-text">
       <div
         className="flex lg:flex-row flex-col-reverse lg:space-x-5 justify-between lg:items-center"
         id="event"
@@ -84,7 +84,7 @@ const Event = () => {
           </div>
         </div>
       </div>
-      <hr className="lg:mt-20 mt-14 opacity-10" />
+      <hr className="lg:mt-24 mt-14 opacity-10" />
     </section>
   );
 };

@@ -5,15 +5,15 @@ import { GiPadlock } from "react-icons/gi";
 
 const Careers = () => {
   return (
-    <div className="pt-14 lg:pt-20">
+    <div className="pt-14 lg:pt-24">
       <div className="flex flex-col lg:justify-between lg:items-end lg:flex-row">
         <div className="space-y-3 max-w-[752px]">
           <div>
-            <p className="text-section font-medium text-sm lg:text-base">
+            <p className="text-section font-medium text-sm">
               Careers
             </p>
-            <h2 className=" lg:text-4xl md:text-3xl text-2xl xl:text-5xl font-medium xl:max-w-2xl max-w-lg text-text">
-              This is the ideal moment to join us in shaping Innovotio
+            <h2 className="pt-2 lg:text-4xl md:text-3xl text-2xl xl:text-[44px] font-medium xl:max-w-2xl max-w-lg text-text">
+              This is the ideal moment to join us in shaping Innovotio.
             </h2>
           </div>
         </div>
@@ -33,7 +33,7 @@ const Careers = () => {
           height={600}
         />
       </div>
-      <hr className="lg:mt-20 mt-14 opacity-10" />
+      <hr className="lg:mt-24 mt-14 opacity-10" />
     </div>
   );
 };

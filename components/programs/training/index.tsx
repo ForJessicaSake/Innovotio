@@ -15,7 +15,7 @@ const Training = () => {
   };
 
   return (
-    <section className="pt-14 lg:pt-20 text-white">
+    <section className="pt-14 lg:pt-24 text-white">
       <div>
         <div>
           <h1 className=" lg:text-4xl md:text-3xl text-2xl xl:text-5xl font-medium">Talent Building Programs</h1>
@@ -79,7 +79,7 @@ const Training = () => {
           <TrainingCard timeFrame={1} image={one} quater="year" />
         )}
       </div>
-      <hr className="lg:mt-20 mt-14 opacity-10" />
+      <hr className="lg:mt-24 mt-14 opacity-10" />
     </section>
   );
 };

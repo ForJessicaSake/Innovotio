@@ -11,7 +11,7 @@ import FlexibleHiringModels from "../../../../public/assets/services/flexibleHir
 
 const Recruitment = () => {
   return (
-    <section className="pt-14 lg:pt-20">
+    <section className="pt-14 lg:pt-24">
       <div
         className="flex lg:flex-row flex-col justify-between lg:items-center text-text"
         id="recruitment"
@@ -84,7 +84,7 @@ const Recruitment = () => {
             />
           </div>
         </div>
-      <hr className="lg:mt-20 mt-14 opacity-10" />
+      <hr className="lg:mt-24 mt-14 opacity-10" />
     </section>
   );
 };

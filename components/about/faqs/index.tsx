@@ -20,7 +20,7 @@ const Data = [
       "You bet! At Innovotio, we ensure your event goes off without a hitch giving your guests an unforgettable experience.",
   },
   {
-    question: "Do you offer top-notch recruitment services?",
+    question: "Does Innovotio offer recruitment services?",
     answer:
       "Yes! Innovotio's dedicated human resource team is ready to take the hassle out of your recruitment process. We'll meticulously vet and provide the best-fit tech talents for your organization.",
   },
@@ -28,14 +28,14 @@ const Data = [
 
 const Faqs = () => {
   return (
-    <div className="pt-14 lg:pt-20 ">
+    <div className="pt-14 lg:pt-24">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 ">
         <div className="lg:col-span-1">
           <div>
-            <p className="text-section font-medium text-sm lg:text-base">
+            <p className="text-section font-medium text-sm">
               FAQs
             </p>
-            <h1 className=" lg:text-4xl md:text-3xl text-2xl xl:text-5xl max-w-md font-medium text-text">
+            <h1 className="pt-2 lg:text-4xl md:text-3xl text-2xl xl:text-5xl max-w-md font-medium text-text">
               Frequently Asked Questions
             </h1>
           </div>
@@ -53,7 +53,7 @@ const Faqs = () => {
           </div>
         </div>
       </div>
-      <hr className="lg:mt-20 mt-14 opacity-10" />
+      <hr className="lg:mt-24 mt-14 opacity-10" />
     </div>
   );
 };

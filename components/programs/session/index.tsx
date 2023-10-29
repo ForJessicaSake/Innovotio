@@ -5,7 +5,7 @@ import privateI from "../../../public/assets/program/private.svg";
 
 const Session = () => {
   return (
-    <section className="pt-14 lg:pt-20 ">
+    <section className="pt-14 lg:pt-24">
       <div className="text-text flex lg:flex-row lg:items-center flex-col justify-between">
         <div>
           <h1 className="lg:text-4xl text-2xl md:text-3xl font-medium leading-10 max-w-md md:max-w-lg">
@@ -46,7 +46,7 @@ const Session = () => {
         </div>
       </div>
 
-      <hr className="lg:mt-20 mt-10 opacity-10" />
+      <hr className="lg:mt-24 mt-10 opacity-10" />
     </section>
   );
 };

@@ -1,11 +1,11 @@
 const Stats = () => {
   return (
-    <div className="pt-14 lg:pt-20">
+    <div className="pt-14 lg:pt-24">
       <div className="flex xl:flex-row flex-col justify-between">
         <div className="xl:max-w-[40%]">
           <div>
-            <p className="text-section font-medium text-sm lg:text-base">Stats</p>
-            <h1 className=" lg:text-4xl md:text-3xl text-2xl xl:text-5xl xl:max-w-lg max-w-sm font-medium text-text mb-7">
+            <p className="text-section font-medium text-sm">Stats</p>
+            <h1 className="pt-2 lg:text-4xl md:text-3xl text-2xl xl:text-5xl xl:max-w-lg max-w-sm font-medium text-text mb-7">
               We ensure that all our services offer value.
             </h1>
           </div>
@@ -53,7 +53,7 @@ const Stats = () => {
             </div>
         </div>
       </div>
-      <hr className="lg:mt-20 mt-14 opacity-10" />
+      <hr className="lg:mt-24 mt-14 opacity-10" />
     </div>
   );
 };

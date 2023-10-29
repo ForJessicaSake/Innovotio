@@ -11,7 +11,7 @@ import JobMarketInsights from "../../../../public/assets/services/jobMarketInsig
 
 const Talent = () => {
   return (
-    <section className="lg:pt-12 pt-6 text-text">
+    <section className="lg:pt-24 pt-14 text-text">
       <div
         className="flex lg:flex-row flex-col-reverse lg:space-x-5 justify-between lg:items-center"
         id="talent"
@@ -85,7 +85,7 @@ const Talent = () => {
           </div>
         </div>
       </div>
-      <hr className="lg:mt-20 mt-14 opacity-10" />
+      <hr className="lg:mt-24 mt-14 opacity-10" />
     </section>
   );
 };

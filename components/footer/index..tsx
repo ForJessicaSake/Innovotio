@@ -119,7 +119,7 @@ function Footer() {
           </ul>
         </div>
       </section>
-      <hr className="lg:mt-20 mt-14 opacity-10" />
+      <hr className="lg:mt-24 mt-14 opacity-10" />
       <Copyright />
     </footer>
   );

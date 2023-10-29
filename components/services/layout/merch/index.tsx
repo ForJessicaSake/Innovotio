@@ -1,5 +1,10 @@
+import "swiper/css";
 import Link from "next/link";
-import Image from "next/image";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import "swiper/css/free-mode";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, FreeMode, Pagination, Navigation } from "swiper/modules";
 import IndustryExpertise from "../../../../public/assets/services/industryExpertise.svg";
 import design from "../../../../public/assets/services/design.svg";
 import ContinousFeedback from "../../../../public/assets/services/continousFeedback.svg";
@@ -10,8 +15,32 @@ import Button from "@/components/micro/button";
 import Card from "@/components/micro/services/card";
 
 const Merch = () => {
+  const data = [
+    {
+      image: "../../../../assets/services/merch1.svg",
+      image2: "../../../../assets/services/merch2.svg",
+    },
+    {
+      image: "../../../../assets/services/merch4.svg",
+      image2: "../../../../assets/services/merch3.svg",
+    },
+  ];
+  const mobileData = [
+    {
+      image: "../../../../assets/services/merch1.svg",
+    },
+    {
+      image: "../../../../assets/services/merch3.svg",
+    },
+    {
+      image: "../../../../assets/services/merch4.svg",
+    },
+    {
+      image: "../../../../assets/services/merch2.svg",
+    },
+  ];
   return (
-    <section className="lg:pt-20 pt-14 text-text">
+    <section className="lg:pt-24 pt-14 text-text">
       <div className="flex flex-col lg:space-x-5" id="merch">
         <div className=" flex flex-col">
           <h4 className="text-section font-medium">Merchandising</h4>
@@ -29,19 +58,55 @@ const Merch = () => {
             <Button className="my-5">Order Merchandise</Button>
           </Link>
         </div>
-        <div className="flex pt-5 space-x-5">
-          <Image
-            src="../../../../assets/services/merch1.svg"
-            alt="boot setup"
-            width={420}
-            height={213}
-          />
-          <Image
-            src="../../../../assets/services/merch2.svg"
-            alt="water bottles"
-            width={700}
-            height={513}
-          />
+
+        <div className="flex flex-col py-10">
+          <Swiper
+            spaceBetween={20}
+            centeredSlides={true}
+            freeMode={true}
+            navigation={true}
+            modules={[FreeMode, Navigation]}
+            className="max-w-[100%] lg:max-w-[100%]"
+          >
+            {data.map((client) => (
+              <SwiperSlide key={client.image}>
+                <div className="md:mx-20 mx-7 xl:text-start text-center">
+                  <div className="md:flex hidden space-x-3 justify-between items-center">
+                    <img
+                      src={client.image}
+                      className="rounded-md xl:w-[580px] xl:h-[390px] lg:w-[500px] lg:h-[312px] md:w-[380px] md:h-[212px]"
+                    />
+                    <img
+                      src={client.image2}
+                      className="rounded-md xl:w-[650px] xl:h-[500px] lg:w-[500px] lg:h-[312px] md:w-[380px] md:h-[212px]"
+                    />
+                  </div>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+
+          <Swiper
+            spaceBetween={20}
+            centeredSlides={true}
+            freeMode={true}
+            navigation={true}
+            modules={[FreeMode, Navigation]}
+            className="max-w-[100%] lg:max-w-[100%]"
+          >
+            {mobileData.map((client) => (
+              <SwiperSlide key={client.image}>
+                <div className="mx-10 xl:text-start text-center">
+                  <div className="md:hidden block">
+                    <img
+                      src={client.image}
+                      className="rounded-md w-[380px] h-[212px] "
+                    />
+                  </div>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </div>
       <div className="lg:pt-10 pt-5 grid grid-cols-1 lg:grid-cols-3 gap-y-10 gap-x-5">
@@ -89,7 +154,7 @@ const Merch = () => {
           />
         </div>
       </div>
-      <hr className="lg:mt-20 mt-14 opacity-10" />
+      <hr className="lg:mt-24 mt-14 opacity-10" />
     </section>
   );
 };

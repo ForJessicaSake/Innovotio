@@ -4,20 +4,11 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/free-mode";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, FreeMode, Pagination, Navigation } from "swiper/modules";
+import { Autoplay, FreeMode, Navigation } from "swiper/modules";
 import Quotation from "../../../public/assets/testimonial/Quote.svg";
 
 const Testimonial = () => {
-  const settings = {
-    dots: false,
-    speed: 500,
-    slidesToShow: 1,
-    autoplay: true,
-    autoplaySpeed: 6500,
-    infinite: true,
-    pauseOnHover: true,
-    arrows: false,
-  };
+ 
   const data = [
     {
       name: "Destiny Usiomoifo",
@@ -48,7 +39,7 @@ const Testimonial = () => {
     },
   ];
   return (
-    <section className="pt-14 lg:pt-20">
+    <section className="pt-14 lg:pt-24">
       <div className="flex flex-col">
         <Swiper
           spaceBetween={30}
@@ -90,7 +81,7 @@ const Testimonial = () => {
           ))}
         </Swiper>
       </div>
-      <hr className="lg:mt-20 mt-14 opacity-10" />
+      <hr className="lg:mt-24 mt-14 opacity-10" />
     </section>
   );
 };

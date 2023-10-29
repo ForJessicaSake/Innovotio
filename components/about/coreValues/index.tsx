@@ -9,13 +9,13 @@ import Values from "@/components/micro/about";
 
 const CoreValues = () => {
   return (
-    <div className="pt-14 lg:pt-20 ">
+    <div className="pt-14 lg:pt-24">
       <div>
-        <p className="text-section font-medium text-sm lg:text-base">Beliefs</p>
-        <h1 className="lg:text-4xl md:text-3xl text-2xl xl:text-5xl font-medium text-text">
+        <p className="text-section font-medium text-sm">Beliefs</p>
+        <h1 className="pt-2 lg:text-4xl md:text-3xl text-2xl xl:text-5xl font-medium text-text">
           Our Core Values
         </h1>
-        <div className="text-texts lg:text-lg text-base text-justify md:max-w-xl font-light pt-3">
+        <div className="text-texts lg:text-lg text-base text-justify md:max-w-xl font-light pt-5">
           <p>
             Our core values serve as a foundation for Innovotio&apos;s culture
             and guides our actions and decisions as we connect tech talent with
@@ -47,7 +47,7 @@ const CoreValues = () => {
           <Values title="Integrity" text="Conducting business with honesty, transparency, and ethical standards, building trust with clients, partners, and the tech community." icon={Integrity} />
         </div>
       </div>
-      <hr className="lg:mt-20 mt-14 opacity-10" />
+      <hr className="lg:mt-24 mt-14 opacity-10" />
     </div>
   );
 };

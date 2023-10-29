@@ -15,7 +15,7 @@ const FaqDropdown = ({ question, answer }: aboutFaqProps) => {
         onClick={toggleDropdown}
       >
         <div className="flex justify-between w-full">
-          <p className="text-base">{question}</p>
+          <p className="lg:text-lg text-base">{question}</p>
           <span className={isOpen ? "transform rotate-180" : ""}>
             <MdOutlineKeyboardArrowDown size={24} />
           </span>

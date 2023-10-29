@@ -14,7 +14,7 @@ import Index from "@/components/micro/description";
 
 const Description = () => {
   return (
-    <section className="pt-14 lg:pt-20">
+    <section className="pt-14 lg:pt-24">
       <div className="flex flex-col lg:flex-row">
         <div className="space-y-5 md:w-full xl:w-5/12 lg:w-5/12">
           <div>
@@ -66,7 +66,7 @@ const Description = () => {
           </div>
         </div>
       </div>
-      <hr className="lg:mt-20 mt-14 opacity-10" />
+      <hr className="lg:mt-24 mt-14 opacity-10" />
     </section>
   );
 };

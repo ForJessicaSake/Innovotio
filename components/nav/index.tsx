@@ -12,6 +12,8 @@ import Business from "./business";
 
 function Navbar() {
   const [nav, setNav] = React.useState(false);
+  const [background, setBackground] = React.useState("#13181a");
+
   const [navigation, setNavigation] = React.useState({
     business: false,
     talent: false,
@@ -47,10 +49,14 @@ function Navbar() {
   };
 
   return (
-    <nav className="m-5 md:p-5 p-4 w-[95%] mx-auto container bg-[#0E1416] border border-[#F2F4FC24] border-opacity-15 rounded-full">
+    <nav
+      className={`${
+        nav && "bg-[0e1416]"
+      } m-5 md:px-16 px-5 py-4 lg:py-5 w-[95%] mx-auto container bg-[#0E1416] border border-[#F2F4FC24] border-opacity-15 rounded-full`}
+    >
       <section className="navbar flex z-50 text-text justify-between w-full items-center">
         <Link href="/" className="cursor-pointer">
-          <figure className="" onClick={()=>setNav(false)}>
+          <figure className="" onClick={() => setNav(false)}>
             <Image
               src={Logo}
               alt="innovotio's logo"
@@ -76,7 +82,7 @@ function Navbar() {
             onClick={handleBusinessClick}
           >
             For Business
-            <span className="ml-1">
+            <span className="ml-2">
               <Image src={arrow} width={16} height={16} alt="arrow" />
             </span>
             {navigation.business && <Business />}
@@ -88,19 +94,19 @@ function Navbar() {
             }`}
           >
             For Talents
-            <span className="ml-1">
+            <span className="ml-2">
               <Image src={arrow} width={16} height={16} alt="arrow" />
             </span>
             {navigation.talent && <Talent />}
           </li>
           <li
             className={`flex items-center cursor-pointer ${
-              navigation.about &&"text-section" 
+              navigation.about && "text-section"
             }`}
             onClick={handleAboutClick}
           >
             About Us
-            <span className="ml-1">
+            <span className="ml-2">
               <Image src={arrow} width={16} height={16} alt="arrow" />
             </span>
             {navigation.about && <About />}
