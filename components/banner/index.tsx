@@ -6,7 +6,7 @@ const Banner = () => {
     <section className="pt-14 lg:pt-24">
       <div className="flex-col lg:flex-row lg:items-center lg:justify-around text-text flex">
         <div className="space-y-5">
-          <h1 className=" lg:text-4xl md:text-3xl text-2xl xl:text-5xl font-medium max-w-sm lg:max-w-lg ">
+          <h1 className=" lg:text-4xl md:text-3xl text-2xl xl:text-[44px] font-medium max-w-sm lg:max-w-lg ">
             Get top quality services at Innovotio
           </h1>
           <p className="text-base text-texts max-w-md md:max-w-xl lg:max-w-md w-full">

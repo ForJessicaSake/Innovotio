@@ -35,7 +35,7 @@ const Faqs = () => {
             <p className="text-section font-medium text-sm">
               FAQs
             </p>
-            <h1 className="pt-2 lg:text-4xl md:text-3xl text-2xl xl:text-5xl max-w-md font-medium text-text">
+            <h1 className="pt-2 lg:text-4xl md:text-3xl text-2xl xl:text-[44px] max-w-md font-medium text-text">
               Frequently Asked Questions
             </h1>
           </div>

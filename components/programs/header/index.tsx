@@ -8,7 +8,7 @@ import Vision from "../vision";
 
 const Header = () => {
   return (
-    <header className="lg:pt-5 text-text">
+    <header className="text-text">
       <div className="flex justify-between items-center">
         <div>
           <Image
