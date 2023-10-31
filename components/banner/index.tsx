@@ -17,7 +17,7 @@ const Banner = () => {
         <div className="flex flex-row space-x-10 lg:pt-0 pt-6">
           <Link href="/services/merchandise" legacyBehavior>
             <a target="_blank">
-              <Button>Order Merch</Button>
+              <Button>Order A Merch</Button>
             </a>
           </Link>
           <Link href="/services/event" legacyBehavior>

@@ -13,7 +13,7 @@ const Header = () => {
           We provide qualified tech talents to hiring organizations, organize
           tech events and curate branded merchandise.
         </p>
-        <div className="flex sm:flex-row flex-col gap-x-3 space-y-4 md:space-y-0 pt-3 sm:max-w-[480px] items-center justify-center sm:justify-between w-full">
+        <div className="flex sm:flex-row flex-col gap-x-3 space-y-4 md:space-y-0 pt-3 sm:max-w-[480px] items-center justify-center sm:justify-between">
           <Link href="/services/recruit" target="_blank" className="w-full">
             <Button className="w-full sm:w-fit bg-text text-black">
               Hire Tech Talent
@@ -21,10 +21,10 @@ const Header = () => {
           </Link>
 
           <Link href="/services/merchandise" target="_blank" className="w-full">
-            <Button className="w-full sm:w-fit"> Order a Merch</Button>
+            <Button className="w-full sm:w-fit"> Order A Merch</Button>
           </Link>
-          <Link href="http://bit.ly/Innovotio" target="_blank">
-            <p className="text-[#FCFCFC] flex items-center">
+          <Link href="http://bit.ly/Innovotio" target="_blank" className="w-full">
+            <p className="text-[#FCFCFC] flex items-center justify-center">
               <span className="pr-2">
                 <MdGroups className="text-2xl" />
               </span>
