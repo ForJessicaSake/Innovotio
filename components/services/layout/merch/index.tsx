@@ -14,6 +14,7 @@ import DiverseOpportunities from "../../../../public/assets/services/diverseOppo
 import Button from "@/components/micro/button";
 import Card from "@/components/micro/services/card";
 import Image from "next/image";
+import merch from "../../../../public/assets/services/akranex.jpg"
 
 const Merch = () => {
   const data = [
@@ -52,7 +53,7 @@ const Merch = () => {
             alt="merchandise"
             width={590}
             height={400}
-            src="../../../../assets/services/akranex.jpg"
+            src={merch}
             className="rounded-md"
 
           />
