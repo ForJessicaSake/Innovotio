@@ -13,16 +13,19 @@ import Workshop from "../../../../public/assets/services/workshop.svg";
 import DiverseOpportunities from "../../../../public/assets/services/diverseOpportunities.svg";
 import Button from "@/components/micro/button";
 import Card from "@/components/micro/services/card";
+import Image from "next/image";
 
 const Merch = () => {
   const data = [
+ 
     {
-      image: "../../../../assets/services/merch1.svg",
-      image2: "../../../../assets/services/merch2.svg",
+      image: "../../../../assets/services/akranex.jpg",
     },
     {
-      image: "../../../../assets/services/merch4.svg",
-      image2: "../../../../assets/services/merch3.svg",
+      image: "../../../../assets/services/bottle.jpg",
+    },
+    {
+      image: "../../../../assets/services/inn.jpg",
     },
   ];
   const mobileData = [
@@ -71,15 +74,15 @@ const Merch = () => {
             {data.map((client) => (
               <SwiperSlide key={client.image}>
                 <div className="md:mx-20 mx-7 xl:text-start text-center">
-                  <div className="md:flex hidden space-x-3 justify-between items-center">
+                  <div className="md:flex hidden space-x-3 justify-center items-center">
                     <img
                       src={client.image}
-                      className="rounded-md xl:w-[580px] xl:h-[390px] lg:w-[500px] lg:h-[312px] md:w-[380px] md:h-[212px]"
+                      className="rounded-md"
                     />
-                    <img
+                    {/* <img
                       src={client.image2}
                       className="rounded-md xl:w-[650px] xl:h-[500px] lg:w-[500px] lg:h-[312px] md:w-[380px] md:h-[212px]"
-                    />
+                    /> */}
                   </div>
                 </div>
               </SwiperSlide>
