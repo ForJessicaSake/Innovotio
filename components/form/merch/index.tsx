@@ -32,23 +32,29 @@ const Merchandise = () => {
     e.preventDefault();
     if (isValidEmail == true) {
       setLoading(true);
-      const { data, error } = await Supabase.from("merch")
-        .insert([form])
-        .select();
-      if (error) {
-        console.log("An error occurred, please try again later");
-      } else {
-        toast.success("Your request has been successfully submitted!");
-        setTimeout(() => {
-          router.push("/");
-        }, 1000);
+      try {
+        const { data, error } = await Supabase.from("merch")
+          .insert([form])
+          .select();
+        if (error) {
+          console.log("An error occurred, please try again later");
+        } else {
+          toast.success("Your request has been successfully submitted!");
+          setTimeout(() => {
+            router.push("/");
+          }, 1000);
+        }
+      } catch {
+        toast.error("An error occurred, please try again later");
+        console.log("an error occ")
+      } finally {
+        setLoading(false);
       }
-      setLoading(false);
     }
   };
 
   return (
-    <div className="mx-auto container" >
+    <div className="mx-auto container">
       <section className="flex min-h-screen w-12/12">
         <section className="w-3/12 hidden bg-primary md:pt-10 px-10 md:px-4 md:flex flex-col justify-between">
           <div className="">

@@ -30,28 +30,35 @@ const Recruit = () => {
     skills: "",
   });
   const isValidEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.work_email);
+
   const handleSubmit = async (e: any) => {
     setIsEmailValid(isValidEmail);
     e.preventDefault();
     if (isValidEmail == true) {
       setLoading(true);
-      const { data, error } = await Supabase.from("recruit")
-        .insert([form])
-        .select();
-      if (error) {
-        console.log("An error occurred, please try again later");
-      } else {
-        toast.success("Your request has been successfully submitted!");
-        setTimeout(() => {
-          router.push("/");
-        }, 1000);
+      try {
+        const { data, error } = await Supabase.from("recruit")
+          .insert([form])
+          .select();
+        if (error) {
+          console.log("An error occurred, please try again later");
+        } else {
+          toast.success("Your request has been successfully submitted!");
+          setTimeout(() => {
+            router.push("/");
+          }, 1000);
+        }
+      } catch {
+        toast.error("An error occurred, please try again later");
+        console.log("an error occ");
+      } finally {
+        setLoading(false);
       }
-      setLoading(false);
     }
   };
 
   return (
-    <div className="mx-auto container" >
+    <div className="mx-auto container">
       <section className="flex min-h-screen w-12/12">
         <section className="w-3/12 hidden bg-primary md:pt-10 px-10 md:px-4 md:flex flex-col justify-between">
           <div className="">
@@ -212,7 +219,9 @@ const Recruit = () => {
                 <select
                   value={form.mode_of_work}
                   required
-                  onChange={(e) => setForm({ ...form, mode_of_work: e.target.value })}
+                  onChange={(e) =>
+                    setForm({ ...form, mode_of_work: e.target.value })
+                  }
                   className="w-full h-14 text-slate-400 rounded-md  mb-8 px-2 py-2 lg:h-12"
                 >
                   <option>Mode of work</option>
@@ -220,7 +229,7 @@ const Recruit = () => {
                   <option>Hybrid</option>
                   <option>Remote</option>
                 </select>
-               
+
                 <input
                   type="text"
                   value={form.employment_type}

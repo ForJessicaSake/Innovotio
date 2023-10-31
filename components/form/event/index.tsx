@@ -34,21 +34,25 @@ const Event = () => {
     e.preventDefault();
     if (isValidEmail == true) {
       setLoading(true);
-      const { data, error } = await Supabase.from("event")
-        .insert([form])
-        .select();
-      if (error) {
-        console.log("An error occurred, please try again later");
-      } else {
-        toast.success("Your request has been successfully submitted!");
-        setTimeout(() => {
-          router.push("/");
-        }, 1000);
+      try {
+        const { data, error } = await Supabase.from("event")
+          .insert([form])
+          .select();
+        if (error) {
+          console.log("An error occurred, please try again later");
+        } else {
+          toast.success("Your request has been successfully submitted!");
+          setTimeout(() => {
+            router.push("/");
+          }, 1000);
+        }
+      } catch {
+        toast.error("An error occurred, please try again later");
+      } finally {
+        setLoading(false);
       }
-      setLoading(false);
     }
   };
-
   return (
     <div className="mx-auto container" >
       <section className="flex min-h-screen w-12/12">
