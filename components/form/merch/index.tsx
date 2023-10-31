@@ -41,15 +41,15 @@ const Merchandise = () => {
         toast.success("Your request has been successfully submitted!");
         setTimeout(() => {
           router.push("/");
-        }, 1500);
+        }, 1000);
       }
       setLoading(false);
     }
   };
 
   return (
-    <>
-      <section className="flex min-h-screen w-12/12 2xl:mx-auto 2xl:container">
+    <div className="mx-auto container" >
+      <section className="flex min-h-screen w-12/12">
         <section className="w-3/12 hidden bg-primary md:pt-10 px-10 md:px-4 md:flex flex-col justify-between">
           <div className="">
             <Link href="/">
@@ -229,7 +229,7 @@ const Merchandise = () => {
       <div className="pb-1 px-5">
         <Copyright />
       </div>
-    </>
+    </div>
   );
 };
 
