@@ -54,7 +54,7 @@ const Merch = () => {
             width={590}
             height={400}
             src={merch}
-            className="rounded-md"
+            className="rounded-xl"
 
           />
 

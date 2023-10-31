@@ -1,5 +1,6 @@
 import { MdGroups } from "react-icons/md";
 import Button from "@/components/micro/button";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -13,16 +14,23 @@ const Header = () => {
           tech events and curate branded merchandise.
         </p>
         <div className="flex sm:flex-row flex-col gap-x-3 space-y-4 md:space-y-0 pt-3 sm:max-w-[480px] items-center justify-center sm:justify-between">
-          <Button className="w-full sm:w-fit bg-text text-black">
-            Hire Tech Talent
-          </Button>
-          <Button className="w-full sm:w-fit"> Order a Merch</Button>
-          <p className="text-[#FCFCFC] flex items-center">
-            <span className="pr-2">
-              <MdGroups className="text-2xl"/>
-            </span>
-            Join Innovotio
-          </p>
+          <Link href="/services/recruit" target="_blank">
+            <Button className="w-full sm:w-fit bg-text text-black">
+              Hire Tech Talent
+            </Button>
+          </Link>
+
+          <Link href="/services/merchandise" target="_blank">
+            <Button className="w-full sm:w-fit"> Order a Merch</Button>
+          </Link>
+          <Link href="http://bit.ly/Innovotio" target="_blank">
+            <p className="text-[#FCFCFC] flex items-center">
+              <span className="pr-2">
+                <MdGroups className="text-2xl" />
+              </span>
+              Join Innovotio
+            </p>
+          </Link>
         </div>
       </div>
       <div className="lg:pt-20 pt-14 flex justify-center items-center">

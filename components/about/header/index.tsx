@@ -7,15 +7,16 @@ const Header = () => {
       </h1>
       <div className="text-texts lg:text-xl text-base text-justify max-w-xl md:max-w-3xl font-light">
         <p className="pt-5">
-          Innovotio is a tech organization that specializes in connecting tech
-          talent across all levels of experience to organizations of all sizes
-          to achieve their business goals.
+          Innovotio specializes in merchandise curation, recognizing its vital
+          role in boosting brand visibility and leaving a lasting impact. Our
+          dedicated team passionately curates high-quality, customized
+          merchandise tailored to your brand's identity and goals.
         </p>
         <p className="py-5">
-          We offer up-to-date training programs for tech beginners or young tech
-          talents looking to upskill and provide additional services to
-          organizations in forms of business consultancy, tech events management
-          & branded merchandise.
+          Additionally, we offer up-to-date training programs for tech beginners
+          looking to upskill, as well as services for organizations, including
+          connecting tech talent at all experience levels, business consultancy,
+          and tech event management.
         </p>
       </div>
       <div className="lg:pt-20 pt-14 flex justify-center items-center">

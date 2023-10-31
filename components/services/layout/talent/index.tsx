@@ -65,8 +65,8 @@ const Talent = () => {
           <div>
             <Card
               src={Talents}
-              text="Incentives for referring other tech professionals to join the talent pool."
-              title="Referral Programs"
+              text="Mentorship and guidance by trained professionals for our talent pool ."
+              title="Mentorship"
             />
           </div>
           <div>

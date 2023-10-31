@@ -8,6 +8,7 @@ import Workshop from "../../../../public/assets/services/workshop.svg";
 import DiverseOpportunities from "../../../../public/assets/services/diverseOpportunities.svg";
 import JobOpportunities from "../../../../public/assets/services/jobOpportunities.svg";
 import Support from "../../../../public/assets/services/support.svg";
+import comm from "../../../../public/assets/services/cc.jpeg"
 
 const Community = () => {
   return (
@@ -38,10 +39,11 @@ const Community = () => {
         </div>
         <div>
           <Image
-            src="../../../../assets/services/com.svg"
+            src={comm}
             alt="community"
             width={590}
             height={400}
+            className="rounded-xl"
           />
         </div>
       </div>
