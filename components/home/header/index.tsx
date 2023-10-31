@@ -21,7 +21,7 @@ const Header = () => {
           </Link>
 
           <Link href="/services/merchandise" target="_blank" className="w-full">
-            <Button className="w-full sm:w-fit"> Order A Merch</Button>
+            <Button className="w-full sm:w-fit"> Order Merch</Button>
           </Link>
           <Link href="http://bit.ly/Innovotio" target="_blank" className="w-full">
             <p className="text-[#FCFCFC] flex items-center justify-center">
