@@ -25,7 +25,7 @@ const Talent = () => {
           />
         </div>
         <div>
-          <h4 className="text-section font-medium">Tech Talent Management</h4>
+          <h4 className="text-section text-sm font-medium">Tech Talent Management</h4>
           <h1 className="pt-1 font-medium xl:text-4xl md:text-3xl text-2xl md:max-w-md">
             Management support for all tech talents
           </h1>

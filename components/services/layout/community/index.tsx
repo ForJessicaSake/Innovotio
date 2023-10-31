@@ -17,7 +17,7 @@ const Community = () => {
         id="community"
       >
         <div>
-          <h4 className="text-section font-medium">Community</h4>
+          <p className="text-section text-sm font-medium">Community</p>
           <h1 className="pt-1 font-medium xl:text-4xl md:text-3xl text-2xl max-w-lg">
             Foster collaboration, share knowledge, & innovation
           </h1>

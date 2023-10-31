@@ -18,7 +18,7 @@ const Header = () => {
             height={56}
             className="relative lg:top-5 right-4 lg:block hidden"
           />
-          <p className="text-section lg:text-base text-sm font-medium">
+          <p className="text-section text-sm font-medium">
             Programs Training
           </p>
 

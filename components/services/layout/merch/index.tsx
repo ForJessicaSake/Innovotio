@@ -34,7 +34,7 @@ const Merch = () => {
         id="merch"
       >
         <div className=" flex flex-col">
-          <h4 className="text-section font-medium">Merchandising</h4>
+          <h4 className="text-section text-sm font-medium">Merchandising</h4>
           <h1 className="pt-1 font-medium xl:text-4xl md:text-3xl text-2xl lg:max-w-lg">
             Seamless promotional merchandise for brands
           </h1>

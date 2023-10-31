@@ -17,7 +17,7 @@ const Consultancy = () => {
         id="consultancy"
       >
         <div className="">
-          <h4 className="text-section font-medium">Consultancy</h4>
+          <h4 className="text-section text-sm font-medium">Consultancy</h4>
           <h1 className="pt-1 font-medium xl:text-4xl md:text-3xl text-2xl md:max-w-md">
             Give your business that extra push
           </h1>

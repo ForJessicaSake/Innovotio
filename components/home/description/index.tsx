@@ -18,7 +18,7 @@ const Description = () => {
       <div className="flex flex-col lg:flex-row">
         <div className="space-y-5 md:w-full xl:w-5/12 lg:w-5/12">
           <div>
-            <p className="text-section font-medium">Our Framework</p>
+            <p className="text-section text-sm font-medium">Our Framework</p>
             <h2 className="pt-1 font-medium lg:text-4xl md:text-3xl text-2xl xl:text-[44px] max-w-sm text-text">
               Why Choose Innovotio?
             </h2>

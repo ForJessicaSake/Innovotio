@@ -25,7 +25,7 @@ const Event = () => {
           />
         </div>
         <div className="">
-          <h4 className="text-section font-medium">Tech Event Management</h4>
+          <h4 className="text-section text-sm font-medium">Tech Event Management</h4>
           <h1 className="pt-1 font-medium xl:text-4xl md:text-3xl text-2xl md:max-w-lg">
             Delight in a seamlessly managed event
           </h1>
