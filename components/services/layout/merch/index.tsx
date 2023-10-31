@@ -52,7 +52,7 @@ const Merch = () => {
             alt="merchandise"
             width={590}
             height={400}
-            src="/../../../../assets/services/akranex.jpg"
+            src="../../../../assets/services/akranex.jpg"
             className="rounded-md"
 
           />
