@@ -52,7 +52,7 @@ function Navbar() {
     <nav
       className={`${
         nav && "bg-[0e1416]"
-      } m-5 md:px-16 px-5 py-4 lg:py-5 w-[95%] mx-auto container bg-[#0E1416] border border-[#F2F4FC24] border-opacity-15 rounded-full`}
+      } m-5 md:px-10 px-5 py-4 lg:py-5 w-[95%] mx-auto container bg-[#0E1416] border border-[#F2F4FC24] border-opacity-15 rounded-full`}
     >
       <section className="navbar flex z-50 text-text justify-between w-full items-center">
         <Link href="/" className="cursor-pointer">
