@@ -28,14 +28,14 @@ const Catalogue = () => {
           <CatalogueCard
             icon={<FaLaptopCode />}
             heading="Full-Stack Web Development"
-            service="Ease your recruitment process with our human resource team designed to vet and provide the best fit from our tech talents."
+            service="We offer web development training to prospective talents, by our own highly skilled tech professionals"
             data={fullstack}
             name="Full-Stack Web Development"
           />
           <CatalogueCard
             icon={<FaLaptopCode />}
             heading="Frontend Web Development"
-            service="Ease your recruitment process with our human resource team designed to vet and provide the best fit from our tech talents."
+            service="We offer frontend development training to prospective talents, by our own highly skilled tech professionals"
             data={frontend}
             name="Frontend Web Development"
           />
@@ -43,35 +43,35 @@ const Catalogue = () => {
           <CatalogueCard
             icon={<FaLaptopCode />}
             heading="Backend Web Development"
-            service="Ease your recruitment process with our human resource team designed to vet and provide the best fit from our tech talents."
+            service="We offer backend development tranining to prospective talents, by our own highly skilled tech professionals"
             data={backendWebDevelopment}
             name="Backend Web Development"
           />
           <CatalogueCard
             icon={<MdDesignServices />}
             heading="Product Design"
-            service="Ease your recruitment process with our human resource team designed to vet and provide the best fit from our tech talents."
+            service="We offer product design training to prospective talents, by our own highly skilled tech professionals"
             data={productDesign}
             name="Product Design "
           />
           <CatalogueCard
             icon={<MdOutlineProductionQuantityLimits />}
             heading="Product Marketing"
-            service="Ease your recruitment process with our human resource team designed to vet and provide the best fit from our tech talents."
+            service="We offer product marketing courses to prospective talents, by our own highly skilled tech professionals"
             data={productMarketing}
             name="Product Marketing"
           />
           <CatalogueCard
             icon={<FaProductHunt />}
             heading="Product Management"
-            service="Ease your recruitment process with our human resource team designed to vet and provide the best fit from our tech talents."
+            service="We offer product management courses to prospective talents, by our own highly skilled tech professionals"
             data={productManagement}
             name="Product Management"
           />
           <CatalogueCard
             icon={<RiCustomerService2Fill />}
             heading="Community Management "
-            service="Ease your recruitment process with our human resource team designed to vet and provide the best fit from our tech talents."
+            service="We offer community management courses to prospective talents, by our own highly skilled tech professionals"
             data={communityManagement}
             name="Community Management "
           />
@@ -79,42 +79,42 @@ const Catalogue = () => {
           <CatalogueCard
             icon={<MdDesignServices />}
             heading="Brand Storytelling"
-            service="Ease your recruitment process with our human resource team designed to vet and provide the best fit from our tech talents."
+            service="We offer brand story telling training to prospective talents, by our own highly skilled tech professionals"
             data={brandStorytelling}
             name="Brand Storytelling and Content Writing "
           />
           <CatalogueCard
             icon={<MdBusiness />}
             heading="Digital Marketing"
-            service="Ease your recruitment process with our human resource team designed to vet and provide the best fit from our tech talents."
+            service="We offer digital marketing courses to prospective talents, by our own highly skilled tech professionals"
             data={digitalMarketing}
             name="Digital Marketing"
           />
           <CatalogueCard
             icon={<MdOutlineDataThresholding />}
             heading="Data Analytics"
-            service="Ease your recruitment process with our human resource team designed to vet and provide the best fit from our tech talents."
+            service="We offer data analytics training to prospective talents, by our own highly skilled tech professionals"
             data={dataAnalytics}
             name="Data Analytics"
           />
           <CatalogueCard
             icon={<MdBusiness />}
             heading="Business Analysis"
-            service="Ease your recruitment process with our human resource team designed to vet and provide the best fit from our tech talents."
+            service="We offer business analysis training to prospective talents, by our own highly skilled tech professionals"
             data={businessAnalysis}
             name="Business Analysis"
           />
           <CatalogueCard
             icon={<RiCustomerService2Fill />}
             heading="Customer Success "
-            service="Ease your recruitment process with our human resource team designed to vet and provide the best fit from our tech talents."
+            service="We offer customer success training to prospective talents, by our own highly skilled tech professionals"
             data={customerService}
             name="Customer Success"
           />
           <CatalogueCard
             icon={<GiCyberEye />}
             heading="Cyber Security"
-            service="Ease your recruitment process with our human resource team designed to vet and provide the best fit from our tech talents."
+            service="We offer cyber security courses to prospective talents, by our own highly skilled tech professionals"
             data={cyberSecurity}
             name="Cyber Security"
           />
@@ -122,14 +122,14 @@ const Catalogue = () => {
           <CatalogueCard
             icon={<FaLaptopCode />}
             heading="No-code development"
-            service="Ease your recruitment process with our human resource team designed to vet and provide the best fit from our tech talents."
+            service="We offer no code development courses to prospective talents, by our own highly skilled tech professionals"
             data={noCode}
             name="No-code development"
           />
           <CatalogueCard
             icon={<SiVitest />}
             heading="Quality Assurance"
-            service="Ease your recruitment process with our human resource team designed to vet and provide the best fit from our tech talents."
+            service="We offer quality assurance training to prospective talents, by our own highly skilled tech professionals"
             data={qualityAssurance}
             name="Quality Assurance"
           />

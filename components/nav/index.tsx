@@ -146,7 +146,7 @@ function Navbar() {
                   <Link href="/programstraining">Programs Training</Link>
                 </li>
                 <li>
-                  <Link href="/jobapplication">Join Innovotio</Link>
+                  <Link href="/services/talent">Join Innovotio</Link>
                 </li>
                 <li>
                   <Link href="/aboutus/#community" legacyBehavior>
