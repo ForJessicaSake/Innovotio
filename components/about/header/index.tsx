@@ -10,7 +10,7 @@ const Header = () => {
           Innovotio specializes in merchandise curation, recognizing its vital
           role in boosting brand visibility and leaving a lasting impact. Our
           dedicated team passionately curates high-quality, customized
-          merchandise tailored to your brand's identity and goals.
+          merchandise tailored to your brand identity and goals.
         </p>
         <p className="py-5">
           Additionally, we offer up-to-date training programs for tech beginners
