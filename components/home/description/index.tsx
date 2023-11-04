@@ -28,12 +28,10 @@ const Description = () => {
             organizations.
           </p>
           <div>
-            <Link href="/business" legacyBehavior>
-              <a target="_blank">
+            <Link href="/services" legacyBehavior>
                 <Button className="hover:bg-primaryYellow flex items-center justify-center">
                   Experience Us <BsArrowRight className="ml-2 text-lg" />
                 </Button>
-              </a>
             </Link>
           </div>
         </div>
