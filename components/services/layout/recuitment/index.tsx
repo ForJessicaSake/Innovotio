@@ -13,7 +13,7 @@ const Recruitment = () => {
   return (
     <section className="pt-14 lg:pt-24">
       <div
-        className="flex lg:flex-row flex-col justify-between lg:items-center text-text"
+        className="flex lg:flex-row flex-col justify-between  2xl:justify-around lg:items-center text-text"
         id="recruitment"
       >
         <div className="">

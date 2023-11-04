@@ -1,20 +1,20 @@
 import "swiper/css";
+import Image from "next/image";
 import Link from "next/link";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/free-mode";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, FreeMode, Pagination, Navigation } from "swiper/modules";
-import IndustryExpertise from "../../../../public/assets/services/industryExpertise.svg";
-import design from "../../../../public/assets/services/design.svg";
-import ContinousFeedback from "../../../../public/assets/services/continousFeedback.svg";
-import FlexibleHiringModels from "../../../../public/assets/services/flexibleHiringModels.svg";
-import Workshop from "../../../../public/assets/services/workshop.svg";
-import DiverseOpportunities from "../../../../public/assets/services/diverseOpportunities.svg";
 import Button from "@/components/micro/button";
 import Card from "@/components/micro/services/card";
-import Image from "next/image";
-import merch from "../../../../public/assets/services/akranex.jpg"
+import design from "../../../../public/assets/services/design.svg";
+import collage from "../../../../public/assets/services/collage.svg";
+import Workshop from "../../../../public/assets/services/workshop.svg";
+import collage2 from "../../../../public/assets/services/collage2.svg";
+import collage3 from "../../../../public/assets/services/collage3.svg";
+import IndustryExpertise from "../../../../public/assets/services/industryExpertise.svg";
+import ContinousFeedback from "../../../../public/assets/services/continousFeedback.svg";
+import FlexibleHiringModels from "../../../../public/assets/services/flexibleHiringModels.svg";
+import DiverseOpportunities from "../../../../public/assets/services/diverseOpportunities.svg";
 
 const Merch = () => {
   const data = [
@@ -29,10 +29,31 @@ const Merch = () => {
 
   return (
     <section className="lg:pt-24 pt-14 text-text">
+      <Image
+        alt="merchandise"
+        width={1060}
+        height={318}
+        src={collage}
+        className="rounded-xl"
+      />
       <div
-        className="flex flex-col lg:flex-row justify-between"
+        className="flex flex-col py-2 lg:flex-row justify-between space-x-2 2xl:justify-around"
         id="merch"
       >
+        <Image
+          alt="merchandise"
+          width={546}
+          height={296}
+          src={collage2}
+          className="rounded-xl"
+        />
+        <Image
+          alt="merchandise"
+          width={1060}
+          height={318}
+          src={collage3}
+          className="rounded-xl lg:hidden block my-5 lg:my-0"
+        />
         <div className=" flex flex-col">
           <h4 className="text-section text-sm font-medium">Merchandising</h4>
           <h1 className="pt-1 font-medium xl:text-4xl md:text-3xl text-2xl lg:max-w-lg">
@@ -49,41 +70,14 @@ const Merch = () => {
             <Button className="my-5">Order Merchandise</Button>
           </Link>
         </div>
-          <Image
-            alt="merchandise"
-            width={590}
-            height={400}
-            src={merch}
-            className="rounded-xl"
-
-          />
-
-        {/* <div className="flex flex-col justify-center items-center py-10">
-          <Swiper
-            spaceBetween={10}
-            centeredSlides={true}
-            freeMode={true}
-            navigation={true}
-            modules={[FreeMode, Navigation]}
-            className="max-w-[100%] lg:max-w-[100%] flex items-center justify-center h-full"
-          >
-            {data.map((client) => (
-              <SwiperSlide key={client.image}>
-                <div className="mx-20">
-                  <div className="flex space-x-3 justify-center items-center ">
-                    <img
-                      alt="merchandise"
-                    
-                      src={client.image}
-                      className="rounded-md min-w-[320px] min-h-[300px] sm:max-w-[65%] sm:max-h-[65%]"
-                    />
-                  </div>
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
-        </div> */}
       </div>
+      <Image
+        alt="merchandise"
+        width={1060}
+        height={318}
+        src={collage3}
+        className="rounded-xl hidden lg:block"
+      />
       <div className="lg:pt-10 pt-5 grid grid-cols-1 lg:grid-cols-3 gap-y-10 gap-x-5">
         <div>
           <Card

@@ -13,7 +13,7 @@ const Talent = () => {
   return (
     <section className="lg:pt-24 pt-14 text-text">
       <div
-        className="flex lg:flex-row flex-col-reverse lg:space-x-5 justify-between lg:items-center"
+        className="flex lg:flex-row flex-col-reverse lg:space-x-5 justify-between 2xl:justify-around lg:items-center"
         id="talent"
       >
         <div>

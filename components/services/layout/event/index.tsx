@@ -13,7 +13,7 @@ const Event = () => {
   return (
     <section className="lg:pt-24 pt-14 text-text">
       <div
-        className="flex lg:flex-row flex-col-reverse lg:space-x-5 justify-between lg:items-center"
+        className="flex lg:flex-row flex-col-reverse lg:space-x-5 justify-between  2xl:justify-around lg:items-center"
         id="event"
       >
         <div>
@@ -24,7 +24,7 @@ const Event = () => {
             height={400}
           />
         </div>
-        <div className="">
+        <div>
           <h4 className="text-section text-sm font-medium">Tech Event Management</h4>
           <h1 className="pt-1 font-medium xl:text-4xl md:text-3xl text-2xl md:max-w-lg">
             Delight in a seamlessly managed event
