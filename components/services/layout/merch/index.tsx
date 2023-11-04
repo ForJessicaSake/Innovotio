@@ -6,27 +6,17 @@ import "swiper/css/navigation";
 import "swiper/css/free-mode";
 import Button from "@/components/micro/button";
 import Card from "@/components/micro/services/card";
+import collage2 from "../../../assets/collage2.svg";
+import collage3 from "../../../assets/collage3.svg";
+import collage from "../../../assets/collage.svg";
 import design from "../../../../public/assets/services/design.svg";
-import collage from "../../../../public/assets/services/collage.svg";
 import Workshop from "../../../../public/assets/services/workshop.svg";
-import collage2 from "../../../../public/assets/services/collage2.svg";
-import collage3 from "../../../../public/assets/services/collage3.svg";
 import IndustryExpertise from "../../../../public/assets/services/industryExpertise.svg";
 import ContinousFeedback from "../../../../public/assets/services/continousFeedback.svg";
 import FlexibleHiringModels from "../../../../public/assets/services/flexibleHiringModels.svg";
 import DiverseOpportunities from "../../../../public/assets/services/diverseOpportunities.svg";
 
 const Merch = () => {
-  const data = [
-    {
-      image: "/../../../../assets/services/akranex.jpg",
-    },
-
-    {
-      image: "/../../../../assets/services/bottle2.jpg",
-    },
-  ];
-
   return (
     <section className="lg:pt-24 pt-14 text-text">
       <Image
