@@ -1,7 +1,7 @@
 import Head from "next/head";
 import About from "@/components/about";
 
-const Index = () => {
+function Index () {
   return (
     <div className="mx-auto container md:p-10 p-5">
       <Head>
