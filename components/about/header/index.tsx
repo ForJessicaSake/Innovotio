@@ -9,14 +9,14 @@ const Header = () => {
         <p className="pt-5">
           Innovotio specializes in merchandise curation, recognizing its vital
           role in boosting brand visibility and leaving a lasting impact. Our
-          dedicated team passionately curates high-quality, customized
-          merchandise tailored to your brand identity and goals.
+          dedicated team curates high-quality, customized merchandise tailored
+          to your brand identity and goals.
         </p>
         <p className="py-5">
-          Additionally, we offer up-to-date training programs for tech beginners
-          looking to upskill, as well as services for organizations, including
-          connecting tech talent at all experience levels, business consultancy,
-          and tech event management.
+          Additionally, we offer tech event management, up-to-date training
+          programs for tech talents looking to upskill, matching them to hiring
+          organizations at all experience levels as well as business
+          consultancy.
         </p>
       </div>
       <div className="lg:pt-20 pt-14 flex justify-center items-center">

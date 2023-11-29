@@ -20,8 +20,8 @@ const Services = () => {
             </h2>
           </div>
           <p className="lg:text-lg text-base max-w-lg text-texts">
-            Innovotio provides more than just the plumbing for your revenue. As
-            a merchant of record, we do it for you.
+            Innovotio provides more than just basic support. We focus on your
+            pain points to give you a great experience.
           </p>
         </div>
         <div className="pt-5">
@@ -41,7 +41,7 @@ const Services = () => {
             icon={<BsFillGiftFill />}
             illustration="../../.././assets/services/one.svg"
             illustration2="../../.././assets/services/two.svg"
-            text="Collaborate with our team to design and produce merchandise tailored to your tech events and branding needs. Whether you're hosting conferences, workshops, or promotional campaigns, we can help you create your identity."
+            text="Collaborate with our team to design and curate merchandise tailored to your tech events and brand needs. Whether you're hosting conferences, workshops, or promotional campaigns, we can help you create your identity."
           />
         </div>
         <div className="col-span-1">
@@ -51,7 +51,7 @@ const Services = () => {
             className="w-72 h-72"
             icon={<MdOutlinePersonPin />}
             illustration="../../.././assets/services/recruit.svg"
-            text="Cease your recruitment process with our human resource team designed to vet and provide the best fit from our tech talents."
+            text="Fast track your recruitment process with our human resource team designed to vet and provide the best fit from our tech talents."
           />
         </div>
       </div>
@@ -60,7 +60,7 @@ const Services = () => {
           title="Tech Event Management"
           route="/services/#event"
           className="w-[564px] h-72"
-          text="Ensure your tech event goes off without a hitch and give your guests a quality time when we organize your tech event."
+          text="Ensure your tech event goes off without a hitch and give your guests an unforgettable experience with our event team."
           icon={<HiUserGroup />}
           illustration="../../.././assets/services/event3.svg"
         />
@@ -70,7 +70,7 @@ const Services = () => {
           className="w-72 h-72"
           icon={<FaPeopleCarry />}
           illustration="../../.././assets/services/consult.svg"
-          text="We offer business consultation session to aid project launch, business launch and staffing requirements."
+          text="Get business consultation session to aid project launch, business launch and scalling requirements."
         />
       </div>
       <div className="pt-5 grid grid-cols-1 lg:grid-cols-3 gap-5">
@@ -82,7 +82,7 @@ const Services = () => {
             icon={<TbUserSearch />}
             illustration="../../.././assets/services/event.svg"
             illustration2="../../.././assets/services/event2.svg"
-            text="We train, assess and maintain the quality of our talent pool regularly to ensure satisfaction both for businesses and talents."
+            text="Train, assess and maintain the quality of talent pool regularly to ensure satisfaction both for businesses and talents."
           />
         </div>
         <div className="col-span-1">
@@ -92,7 +92,7 @@ const Services = () => {
             className="w-72 h-72"
             icon={<MdGroups />}
             illustration="../../.././assets/services/community.svg"
-            text="Get easy support to meet all your recruitment needs on our slack community."
+            text="Get quick support to meet all your needs on our slack community."
           />
         </div>
       </div>

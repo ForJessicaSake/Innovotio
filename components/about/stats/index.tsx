@@ -15,7 +15,7 @@ const Stats = () => {
               <div className="space-y-3 max-w-xs">
                 <h2 className="lg:text-4xl text-2xl text-text">50+</h2>
                 <p className="text-lg text-texts">
-                  All individual merchandise successfully delivered
+                  Merchandise successfully delivered
                 </p>
               </div>
               <div className="space-y-3 max-w-xs">
@@ -27,7 +27,7 @@ const Stats = () => {
               <div className="space-y-3 max-w-xs">
                 <h2 className="lg:text-4xl text-2xl text-text">10</h2>
                 <p className="text-lg text-texts">
-                  Number companies registered through us
+                  Companies registered through us
                 </p>
               </div>
             </div>
@@ -35,7 +35,7 @@ const Stats = () => {
             <div className="space-y-3 max-w-[250px]">
                 <h2 className="lg:text-4xl text-2xl text-text">100</h2>
                 <p className="text-lg text-texts">
-                  Total number of soft skills Alumni
+                  Soft skills Alumni
                 </p>
               </div>
               <div className="space-y-3 max-w-xs">
@@ -47,7 +47,7 @@ const Stats = () => {
               <div className="space-y-3 max-w-xs">
                 <h2 className="lg:text-4xl text-2xl  font-normal text-text">20+</h2>
                 <p className="text-lg font-normal text-texts">
-                  Number of brands that have trusted us to deliver quality
+                  Brands have trusted us to deliver quality
                 </p>
               </div>
             </div>

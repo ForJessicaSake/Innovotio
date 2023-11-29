@@ -25,13 +25,15 @@ const Event = () => {
           />
         </div>
         <div>
-          <h4 className="text-section text-sm font-medium">Tech Event Management</h4>
+          <h4 className="text-section text-sm font-medium">
+            Tech Event Management
+          </h4>
           <h1 className="pt-1 font-medium xl:text-4xl md:text-3xl text-2xl md:max-w-lg">
             Delight in a seamlessly managed event
           </h1>
           <p className="pt-5 text-base text-justify text-texts lg:max-w-sm xl:max-w-lg">
             We ensure your tech event goes off without a hitch and give your
-            guests a quality time by organizing your tech event.
+            guests an unforgettable experience with our event team.
           </p>
           <Link href="/services/event" target="_blank">
             <Button className="my-5">Get Event Support</Button>
