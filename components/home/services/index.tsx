@@ -56,22 +56,22 @@ const Services = () => {
         </div>
       </div>
       <div className="pt-5 grid grid-cols-1 lg:grid-cols-2 gap-5">
-        <ServiceCard
-          title="Tech Event Management"
-          route="/services/#event"
-          className="w-[564px] h-72"
-          text="Ensure your tech event goes off without a hitch and give your guests an unforgettable experience with our event team."
-          icon={<HiUserGroup />}
-          illustration="../../.././assets/services/event3.svg"
-        />
-        <ServiceCard
-          title="Consultancy"
-          route="/services/#consultancy"
-          className="w-72 h-72"
-          icon={<FaPeopleCarry />}
-          illustration="../../.././assets/services/consult.svg"
-          text="Get business consultation session to aid project launch, business launch and scalling requirements."
-        />
+          <ServiceCard
+            title="Tech Event Management"
+            route="/services/#event"
+            className="w-[564px] h-72"
+            text="Ensure your tech event goes off without a hitch and give your guests an unforgettable experience with our event team."
+            icon={<HiUserGroup />}
+            illustration="../../.././assets/services/event3.svg"
+          />
+          <ServiceCard
+            title="Consultancy"
+            route="/services/#consultancy"
+            className="w-72 h-72"
+            icon={<FaPeopleCarry />}
+            illustration="../../.././assets/services/consult.svg"
+            text="Get business consultation session to aid project launch, business launch and scalling requirements."
+          />
       </div>
       <div className="pt-5 grid grid-cols-1 lg:grid-cols-3 gap-5">
         <div className="lg:col-span-2">

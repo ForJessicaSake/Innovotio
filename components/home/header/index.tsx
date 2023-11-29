@@ -32,7 +32,7 @@ const Header = () => {
           </Link>
         </div>
       </div>
-      <div className="lg:pt-20 pt-14 flex justify-center items-center">
+      <div className="lg:pt-20 pt-14 flex justify-center items-center animate-pulse">
         <img
           src="../../../clients.svg"
           alt="brands"
