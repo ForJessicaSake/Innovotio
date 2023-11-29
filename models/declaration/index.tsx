@@ -28,6 +28,7 @@ export interface trainingProps {
   timeFrame: number;
   image: string;
   quater: string;
+  text:string
 }
 
 export interface catalogProps {

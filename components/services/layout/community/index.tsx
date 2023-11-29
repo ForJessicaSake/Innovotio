@@ -8,7 +8,7 @@ import Workshop from "../../../../public/assets/services/workshop.svg";
 import DiverseOpportunities from "../../../../public/assets/services/diverseOpportunities.svg";
 import JobOpportunities from "../../../../public/assets/services/jobOpportunities.svg";
 import Support from "../../../../public/assets/services/support.svg";
-import comm from "../../../../public/assets/services/cc.jpeg"
+import comm from "../../../../public/assets/services/cc.jpeg";
 
 const Community = () => {
   return (
@@ -20,7 +20,7 @@ const Community = () => {
         <div>
           <p className="text-section text-sm font-medium">Community</p>
           <h1 className="pt-1 font-medium xl:text-4xl md:text-3xl text-2xl max-w-lg">
-            Foster collaboration, share knowledge, & innovation
+            Foster collaboration, share knowledge & innovate
           </h1>
           <p className="py-5 text-base text-justify text-texts lg:max-w-sm xl:max-w-lg">
             We provide a platform for individuals with shared interests in
@@ -59,7 +59,7 @@ const Community = () => {
           <div>
             <Card
               src={IndustryExpertise}
-              text="In-depth knowledge of the tech industry, enabling precise candidate matching."
+              text="Matching talents to Industry experts for extensive job shadowing"
               title="Mentorship Programs"
             />
           </div>

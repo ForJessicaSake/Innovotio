@@ -50,10 +50,10 @@ const Merch = () => {
             Seamless promotional merchandise for brands
           </h1>
           <p className="pt-5 text-base text-justify text-texts lg:max-w-sm xl:max-w-lg">
-            We specialize in creating and providing branded merchandise and
-            promotional products for technology companies and their communities.
-            Our primary focus is to design and produce merchandise that reflects
-            tech companies brand identity, values, and culture.
+            We specialize in providing branded merchandise and promotional
+            products for organizations & individuals in the ecosystem. Our
+            primary focus is to provide merchandise that reflects your brand
+            identity, values, and culture.
           </p>
 
           <Link href="/services/merchandise" target="_blank">
@@ -72,7 +72,7 @@ const Merch = () => {
         <div>
           <Card
             src={design}
-            text="Tailored merchandise design to match the unique brand identity of tech companies."
+            text="Tailored merchandise designed to match the unique brand identity of tech companies."
             title="Custom Design"
           />
         </div>
@@ -94,7 +94,7 @@ const Merch = () => {
         <div>
           <Card
             src={ContinousFeedback}
-            text="A support to address inquiries, requests, and concerns throughout the ordering process."
+            text="Quick support to address inquiries, requests, and concerns throughout the ordering process."
             title="Customer Support"
           />
         </div>

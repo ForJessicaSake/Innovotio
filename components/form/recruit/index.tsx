@@ -50,7 +50,6 @@ const Recruit = () => {
         }
       } catch {
         toast.error("An error occurred, please try again later");
-        console.log("an error occ");
       } finally {
         setLoading(false);
       }
@@ -230,16 +229,19 @@ const Recruit = () => {
                   <option>Remote</option>
                 </select>
 
-                <input
-                  type="text"
+                <select
                   value={form.employment_type}
                   onChange={(e) =>
                     setForm({ ...form, employment_type: e.target.value })
                   }
                   required
-                  placeholder="Employment Type"
                   className="rounded-md mb-8 px-2 py-2 h-12 lg:h-12"
-                />
+                >
+                  <option>Employment Type</option>
+                  <option>Full-Time</option>
+                  <option>Part-Time</option>
+                  <option>Contract</option>
+                </select>
 
                 <input
                   type="text"

@@ -19,7 +19,7 @@ const Recruitment = () => {
         <div className="">
           <h4 className="text-section text-sm font-medium">Recruitment</h4>
           <h1 className="pt-1 font-medium xl:text-4xl md:text-3xl text-2xl md:max-w-lg">
-            Never be bothered by external recruitments
+            Never be bothered by external recruitment
           </h1>
           <p className="py-5 text-base text-justify lg:max-w-sm xl:max-w-lg text-texts">
             Ease your recruitment process with our human resource team designed
@@ -28,7 +28,7 @@ const Recruitment = () => {
           </p>
 
           <Link href="/services/recruit" target="_blank">
-            <Button className="my-5">Recruit A Team</Button>
+            <Button className="my-5">Recruit Talent</Button>
           </Link>
         </div>
         <div>

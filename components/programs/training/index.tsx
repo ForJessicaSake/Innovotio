@@ -10,7 +10,7 @@ const Training = () => {
   const [options, setOptions] = React.useState({
     month: 1,
   });
-  const handleOptions = (value:number) => {
+  const handleOptions = (value: number) => {
     setOptions({ ...options, month: value });
   };
 
@@ -18,7 +18,9 @@ const Training = () => {
     <section className="pt-14 lg:pt-24 text-white">
       <div>
         <div>
-          <h1 className=" lg:text-4xl md:text-3xl text-2xl xl:text-[44px] font-medium">Talent Building Programs</h1>
+          <h1 className=" lg:text-4xl md:text-3xl text-2xl xl:text-[44px] font-medium">
+            Talent Building Programs
+          </h1>
           <p className="text-base lg:text-lg max-w-3xl text-texts font-light py-5">
             Put your best foot forward and fast track landing a new tech job
             with innovotio.
@@ -39,8 +41,8 @@ const Training = () => {
             onClick={() => handleOptions(3)}
             className={
               options.month === 3
-              ? "bg-section lg:w-44 w-28 h-14 lg:h-16 text-lg lg:text-2xl text-black !rounded-full"
-              : "lg:w-44 w-28 h-14 lg:h-16 text-lg lg:text-2xl text-white !rounded-full"
+                ? "bg-section lg:w-44 w-28 h-14 lg:h-16 text-lg lg:text-2xl text-black !rounded-full"
+                : "lg:w-44 w-28 h-14 lg:h-16 text-lg lg:text-2xl text-white !rounded-full"
             }
           >
             3 months
@@ -49,8 +51,8 @@ const Training = () => {
             onClick={() => handleOptions(6)}
             className={
               options.month === 6
-              ? "bg-section lg:w-44 w-28 h-14 lg:h-16 text-lg lg:text-2xl text-black !rounded-full"
-              : "lg:w-44 w-28 h-14 lg:h-16 text-lg lg:text-2xl text-white !rounded-full"
+                ? "bg-section lg:w-44 w-28 h-14 lg:h-16 text-lg lg:text-2xl text-black !rounded-full"
+                : "lg:w-44 w-28 h-14 lg:h-16 text-lg lg:text-2xl text-white !rounded-full"
             }
           >
             6 months
@@ -59,8 +61,8 @@ const Training = () => {
             onClick={() => handleOptions(12)}
             className={
               options.month === 12
-              ? "bg-section lg:w-44 w-28 h-14 lg:h-116 text-lg lg:text-2xl text-black !rounded-full"
-              : "lg:w-44 w-28 h-14 lg:h-16 text-lg lg:text-2xl text-white !rounded-full"
+                ? "bg-section lg:w-44 w-28 h-14 lg:h-116 text-lg lg:text-2xl text-black !rounded-full"
+                : "lg:w-44 w-28 h-14 lg:h-16 text-lg lg:text-2xl text-white !rounded-full"
             }
           >
             1 year
@@ -70,13 +72,35 @@ const Training = () => {
 
       <div className="pt-5">
         {options.month === 1 ? (
-          <TrainingCard timeFrame={1} image={creative} quater="month" />
+          <TrainingCard
+            timeFrame={1}
+            image={creative}
+            quater="month"
+            text=" Get started with a tech skill using our one-month introductory
+          training program. Get introduced to all the basics necessary to
+            start a career in tech."
+          />
         ) : options.month === 3 ? (
-          <TrainingCard timeFrame={3} image={three} quater="months" />
+          <TrainingCard
+            timeFrame={3}
+            image={three}
+            quater="months"
+            text="Go further with our 3 months training programs  to build your skill to intermediate level with abstract projects."
+          />
         ) : options.month === 6 ? (
-          <TrainingCard timeFrame={6} image={six} quater="months" />
+          <TrainingCard
+            timeFrame={6}
+            image={six}
+            quater="months"
+            text="Elevate your skills in your tech niche while engaging in real-life projects to build your portfolio."
+          />
         ) : (
-          <TrainingCard timeFrame={1} image={one} quater="year" />
+          <TrainingCard
+            timeFrame={1}
+            image={one}
+            quater="year"
+            text="Get one month of free mentorship in addition to your tech skill and projects when you train with us for a year."
+          />
         )}
       </div>
       <hr className="lg:mt-24 mt-14 opacity-10" />

@@ -27,14 +27,14 @@ const Talent = () => {
         <div>
           <h4 className="text-section text-sm font-medium">Tech Talent Management</h4>
           <h1 className="pt-1 font-medium xl:text-4xl md:text-3xl text-2xl md:max-w-md">
-            Management support for all tech talents
+            Stay on top of your career game
           </h1>
           <p className="pt-5 text-base text-justify text-texts lg:max-w-sm xl:max-w-lg">
             We train, assess and maintain the quality of our talent pool
             regularly to ensure satisfaction both for businesses and talents.
           </p>
           <Link href="/services/talent" target="_blank">
-            <Button className="my-5">Get In Touch</Button>
+            <Button className="my-5">Get Started</Button>
           </Link>
         </div>
       </div>

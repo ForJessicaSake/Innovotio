@@ -1,28 +1,25 @@
 import FaqDropdown from "@/components/micro/about/faq";
 const Data = [
   {
-    question: "What's the exciting world of Innovotio all about?",
-    answer: `Innovotio is a tech organization that specializes in connecting tech talent across all levels of experience to organizations of all sizes to achieve their business goals. We offer up-to-date training programs for tech beginners or young tech talents looking to upskill and provide additional services to organizations in forms of business consultancy, tech events management & branded merchandise.`,
+    question: "Can I curate a custom order for merch with Innovotio?",
+    answer:
+      "Yes! Our clients are allowed to select curated merchandise tailored to thier tech events and branding requirements.",
   },
   {
-    question: "Tell me about the courses offered at Innovotio?",
+    question: "What is the minimum order per item?",
     answer:
-      "At Innovotio, we offer a diverse range of training programs. You can explore courses in Development, Design, Product, Marketing, Management, Analysis, Security, and Testing. Our team of professionals is committed to equipping you with the skills needed to land your first job in the tech industry.",
+      "The minimum order quantity for individuals is one unit and fifty units for bulk orders",
   },
   {
-    question: "Can I create eye-catching branded merchandise with Innovotio?",
+    question: "What is the estimated delivery time for Innovotio merch?",
     answer:
-      "Absolutely! Innovotio's team is here to assist you in designing and producing merchandise tailored to your tech events and branding requirements. Whether you're hosting conferences, workshops, or promotional campaigns, we can help you establish a unique identity..",
+      "Our delivery time for prints is within 72 hours for non-bulk orders and 2 weeks for bulk orders.",
   },
+
   {
-    question: "Can Innovotio work its magic in managing my event?",
+    question: "How does innovotio vet tech talents?",
     answer:
-      "You bet! At Innovotio, we ensure your event goes off without a hitch giving your guests an unforgettable experience.",
-  },
-  {
-    question: "Does Innovotio offer recruitment services?",
-    answer:
-      "Yes! Innovotio's dedicated human resource team is ready to take the hassle out of your recruitment process. We'll meticulously vet and provide the best-fit tech talents for your organization.",
+      "Innovotio's human resource team reviews talent applications, and evaluates talents to match the best fit for the role available.",
   },
 ];
 
@@ -32,9 +29,7 @@ const Faqs = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 ">
         <div className="lg:col-span-1">
           <div>
-            <p className="text-section font-medium text-sm">
-              FAQs
-            </p>
+            <p className="text-section font-medium text-sm">FAQs</p>
             <h1 className="pt-2 lg:text-4xl md:text-3xl text-2xl xl:text-[44px] max-w-md font-medium text-text">
               Frequently Asked Questions
             </h1>

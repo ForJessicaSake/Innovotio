@@ -200,7 +200,7 @@ const Talent = () => {
                   type="text"
                   value={form.resume}
                   onChange={(e) => setForm({ ...form, resume: e.target.value })}
-                  placeholder="resume link"
+                  placeholder="Resume link"
                   required
                   className="rounded-md mb-8 px-2 py-2 h-12 lg:h-12"
                 />

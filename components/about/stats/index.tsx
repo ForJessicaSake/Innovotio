@@ -15,7 +15,7 @@ const Stats = () => {
               <div className="space-y-3 max-w-xs">
                 <h2 className="lg:text-4xl text-2xl text-text">50+</h2>
                 <p className="text-lg text-texts">
-                  Merchandise successfully delivered
+                  Merchandise successfully delivered to clients
                 </p>
               </div>
               <div className="space-y-3 max-w-xs">
@@ -25,9 +25,9 @@ const Stats = () => {
                 </p>
               </div>
               <div className="space-y-3 max-w-xs">
-                <h2 className="lg:text-4xl text-2xl text-text">10</h2>
+                <h2 className="lg:text-4xl text-2xl text-text">10+</h2>
                 <p className="text-lg text-texts">
-                  Companies registered through us
+                  Companies successfully registered through us
                 </p>
               </div>
             </div>
@@ -35,11 +35,11 @@ const Stats = () => {
             <div className="space-y-3 max-w-[250px]">
                 <h2 className="lg:text-4xl text-2xl text-text">100</h2>
                 <p className="text-lg text-texts">
-                  Soft skills Alumni
+                  Soft skills alumni from our programme
                 </p>
               </div>
               <div className="space-y-3 max-w-xs">
-                <h2 className="lg:text-4xl text-2xl font-normal text-text">8</h2>
+                <h2 className="lg:text-4xl text-2xl font-normal text-text">8+</h2>
                 <p className="text-lg font-normal text-texts">
                   Tech events managed since we began
                 </p>

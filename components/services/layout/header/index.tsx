@@ -9,9 +9,10 @@ const Header = () => {
         All things tech made affordable and accessible
       </h1>
       <p className="text-base text-justify md:text-lg max-w-3xl text-texts leading-7 pt-3">
-        We are a dedicated startup specializing in a comprehensive suite of
-        professional services that encompass talent training, recruitment,
-        meticulous event planning, and the curation of branded merchandise.
+        We are a tech organization dedicated to providing a comprehensive suite
+        of services in the tech ecosystem, covering talent training,
+        recruitment, meticulous event planning, and the curation of branded
+        merchandise.
       </p>
 
       <div className="pt-5 space-y-5 md:space-y-0 md:space-x-10 flex flex-col md:flex-row">
