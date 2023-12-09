@@ -33,7 +33,7 @@ const Services = () => {
         </div>
       </div>
       <div className="lg:pt-10 pt-5 grid grid-cols-1 lg:grid-cols-3 gap-5">
-        <div className="lg:col-span-2">
+        <div className="lg:col-span-2" data-aos="fade-right">
           <ServiceCard
             title="Merchandising"
             route="/services/#merch"
@@ -44,7 +44,7 @@ const Services = () => {
             text="Collaborate with our team to design and curate merchandise tailored to your tech events and brand needs. Whether you're hosting conferences, workshops, or promotional campaigns, we can help you create your identity."
           />
         </div>
-        <div className="col-span-1">
+        <div className="col-span-1" data-aos="fade-left">
           <ServiceCard
             title="Recruitment"
             route="/services/#recruitment"
@@ -56,6 +56,7 @@ const Services = () => {
         </div>
       </div>
       <div className="pt-5 grid grid-cols-1 lg:grid-cols-2 gap-5">
+        <div data-aos="fade-right">
           <ServiceCard
             title="Tech Event Management"
             route="/services/#event"
@@ -64,6 +65,8 @@ const Services = () => {
             icon={<HiUserGroup />}
             illustration="../../.././assets/services/event3.svg"
           />
+        </div>
+        <div data-aos="fade-left">
           <ServiceCard
             title="Consultancy"
             route="/services/#consultancy"
@@ -72,9 +75,10 @@ const Services = () => {
             illustration="../../.././assets/services/consult.svg"
             text="Get business consultation session to aid project launch, business launch and scalling requirements."
           />
+        </div>
       </div>
       <div className="pt-5 grid grid-cols-1 lg:grid-cols-3 gap-5">
-        <div className="lg:col-span-2">
+        <div className="lg:col-span-2" data-aos="fade-right">
           <ServiceCard
             title="Tech Talent Management"
             route="/services/#talent"
@@ -85,7 +89,7 @@ const Services = () => {
             text="Train, assess and maintain the quality of talent pool regularly to ensure satisfaction both for businesses and talents."
           />
         </div>
-        <div className="col-span-1">
+        <div className="col-span-1" data-aos="fade-left">
           <ServiceCard
             title="Community"
             route="/services/#community"
