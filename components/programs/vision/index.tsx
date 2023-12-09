@@ -3,7 +3,10 @@ import { BsPeople, BsPersonWorkspace } from "react-icons/bs";
 
 const Vision = () => {
   return (
-    <section className="pt-8 lg:pt-16 text-text flex lg:flex-row flex-col lg:items-center justify-between">
+    <section
+      data-aos="zoom-in"
+      className="pt-8 lg:pt-16 text-text flex lg:flex-row flex-col lg:items-center justify-between"
+    >
       <div className="lg:w-4/12 w-9/12 md:w-full">
         <h1 className="xl:text-4xl lg:mb-0 pb-5 text-2xl font-medium xl:max-w-xs max-w-[200px]">
           Our Training Vision

@@ -14,7 +14,10 @@ const CatalogueCard = ({
 }: catalogProps) => {
   const [modal, setModal] = React.useState(false);
   return (
-    <section className="cursor-pointer hover:bg-hover hover:text-white lg:max-w-[425px] max-w-full p-5 justify-center border rounded-2xl border-[#F2F4FC24] border-opacity-10 flex flex-col items-start">
+    <section
+      data-aos="zoom-out"
+      className="cursor-pointer hover:bg-hover hover:text-white lg:max-w-[425px] max-w-full p-5 justify-center border rounded-2xl border-[#F2F4FC24] border-opacity-10 flex flex-col items-start"
+    >
       <div className="flex items-center">
         <div className="text-section">{icon}</div>
         <h2 className="lg:text-lg font-medium ml-2 text-lg">{heading}</h2>

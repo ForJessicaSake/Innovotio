@@ -19,7 +19,10 @@ const Header = () => {
           consultancy.
         </p>
       </div>
-      <div className="lg:pt-20 pt-14 flex justify-center items-center">
+      <div
+        data-aos="zoom-in"
+        className="lg:pt-20 pt-14 flex justify-center items-center animate-pulse"
+      >
         <img
           src="../../../clients.svg"
           alt="brands"

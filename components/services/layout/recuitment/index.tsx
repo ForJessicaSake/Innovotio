@@ -11,7 +11,7 @@ import FlexibleHiringModels from "../../../../public/assets/services/flexibleHir
 
 const Recruitment = () => {
   return (
-    <section className="pt-14 lg:pt-24">
+    <section data-aos="zoom-in" className="pt-14 lg:pt-24">
       <div
         className="flex lg:flex-row flex-col justify-between  2xl:justify-around lg:items-center text-text"
         id="recruitment"

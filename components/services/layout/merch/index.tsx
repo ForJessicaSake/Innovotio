@@ -18,7 +18,7 @@ import DiverseOpportunities from "../../../../public/assets/services/diverseOppo
 
 const Merch = () => {
   return (
-    <section className="lg:pt-24 pt-14 text-text">
+    <section data-aos="zoom-in" className="lg:pt-24 pt-14 text-text">
       <Image
         alt="merchandise"
         width={1060}

@@ -11,7 +11,7 @@ import JobMarketInsights from "../../../../public/assets/services/jobMarketInsig
 
 const Talent = () => {
   return (
-    <section className="lg:pt-24 pt-14 text-text">
+    <section data-aos="zoom-in" className="lg:pt-24 pt-14 text-text">
       <div
         className="flex lg:flex-row flex-col-reverse lg:space-x-5 justify-between 2xl:justify-around lg:items-center"
         id="talent"

@@ -1,6 +1,6 @@
+import Link from "next/link";
 import { MdGroups } from "react-icons/md";
 import Button from "@/components/micro/button";
-import Link from "next/link";
 
 const Header = () => {
   return (
@@ -22,7 +22,11 @@ const Header = () => {
           <Link href="/services/merchandise" target="_blank" className="w-full">
             <Button className="w-full"> Order Merch</Button>
           </Link>
-          <Link href="http://bit.ly/Innovotio" target="_blank" className="w-full">
+          <Link
+            href="http://bit.ly/Innovotio"
+            target="_blank"
+            className="w-full"
+          >
             <p className="text-[#FCFCFC] flex items-center justify-center">
               <span className="pr-2">
                 <MdGroups className="text-2xl" />
@@ -32,7 +36,10 @@ const Header = () => {
           </Link>
         </div>
       </div>
-      <div className="lg:pt-20 pt-14 flex justify-center items-center animate-pulse">
+      <div
+        data-aos="zoom-in"
+        className="lg:pt-20 pt-14 flex justify-center items-center animate-pulse"
+      >
         <img
           src="../../../clients.svg"
           alt="brands"

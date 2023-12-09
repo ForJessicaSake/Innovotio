@@ -10,7 +10,7 @@ const ServiceCard = ({
   illustration2,
 }: serviceCardProps) => {
   return (
-    <div className="space-y-5 p-5 rounded-2xl cursor-pointer bg-[#182222] ">
+    <div data-aos="zoom-out" className="space-y-5 p-5 rounded-2xl cursor-pointer bg-[#182222] ">
       <div className="flex flex-col lg:flex-row items-center justify-center space-x-5">
         <img
           className={`${className}`}

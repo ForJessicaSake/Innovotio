@@ -6,10 +6,7 @@ import Button from "../micro/button";
 function Footer() {
   return (
     <footer className="mx-auto container md:p-10 p-5 text-text cursor-pointer">
-      <h1
-        data-aos="fade-up"
-        className="lg:max-w-2xl max-w-lg lg:text-4xl xl:text-[44px] text-3xl tracking-wide font-medium"
-      >
+      <h1 className="lg:max-w-2xl max-w-lg lg:text-4xl xl:text-[44px] text-3xl tracking-wide font-medium">
         Your one stop for <span className="text-section">talent,</span> event{" "}
         <span className="text-section">and </span> merchandise
       </h1>
@@ -24,11 +21,9 @@ function Footer() {
             />
           </figure>
           <div className="">
-              <a target="_blank" href="mailto:talents@innovotio.com">
-                <Button className="my-5 bg-text text-black">
-                  Get In Touch
-                </Button>
-              </a>
+            <a target="_blank" href="mailto:talents@innovotio.com">
+              <Button className="my-5 bg-text text-black">Get In Touch</Button>
+            </a>
           </div>
 
           <figure className="flex justify-between items-center w-52 md:w-64 mt-10">

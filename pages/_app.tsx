@@ -13,17 +13,17 @@ export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
   const route = router.pathname;
 
-  // React.useEffect(()=>{
-  //   AOS.init(
-  //     {
-  //       offset: 120,
-  //       delay: 0,
-  //       duration: 1000, 
-  //       easing: 'ease', 
-  //       once: true, 
-  //       mirror: false,
-  //     })
-  // })
+  React.useEffect(()=>{
+    AOS.init(
+      {
+        offset: 120,
+        delay: 0,
+        duration: 1000, 
+        easing: 'ease', 
+        once: true, 
+        mirror: false,
+      })
+  })
 
   const exempted_paths =
     /^\/services\/recruit|^\/services\/event|^\/services\/talent|^\/services\/merch|^\/services\/merch|^\/404/;
