@@ -11,7 +11,7 @@ import JobMarketInsights from "../../../../public/assets/services/jobMarketInsig
 
 const Talent = () => {
   return (
-    <section data-aos="zoom-in" className="lg:pt-24 pt-14 text-text">
+    <section className="lg:pt-24 pt-14 text-text">
       <div
         className="flex lg:flex-row flex-col-reverse lg:space-x-5 justify-between 2xl:justify-around lg:items-center"
         id="talent"
@@ -22,10 +22,13 @@ const Talent = () => {
             alt="community"
             width={590}
             height={400}
+            data-aos="fade-right"
           />
         </div>
-        <div>
-          <h4 className="text-section text-sm font-medium">Tech Talent Management</h4>
+        <div data-aos="fade-left">
+          <h4 className="text-section text-sm font-medium">
+            Tech Talent Management
+          </h4>
           <h1 className="pt-1 font-medium xl:text-4xl md:text-3xl text-2xl md:max-w-md">
             Stay on top of your career game
           </h1>

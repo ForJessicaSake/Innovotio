@@ -11,12 +11,12 @@ import FlexibleHiringModels from "../../../../public/assets/services/flexibleHir
 
 const Consultancy = () => {
   return (
-    <section data-aos="zoom-in" className="pt-14 lg:pt-24">
+    <section className="pt-14 lg:pt-24">
       <div
         className="flex lg:flex-row flex-col justify-between 2xl:justify-around lg:items-center text-text"
         id="consultancy"
       >
-        <div className="">
+        <div data-aos="fade-right">
           <h4 className="text-section text-sm font-medium">Consultancy</h4>
           <h1 className="pt-1 font-medium xl:text-4xl md:text-3xl text-2xl md:max-w-md">
             Give your business that extra push
@@ -36,6 +36,7 @@ const Consultancy = () => {
             alt="community"
             width={590}
             height={400}
+            data-aos="fade-left"
           />
         </div>
       </div>

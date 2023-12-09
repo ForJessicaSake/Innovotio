@@ -11,7 +11,7 @@ import VendorPlanning from "../../../../public/assets/services/vendorPlanning.sv
 
 const Event = () => {
   return (
-    <section data-aos="zoom-in" className="lg:pt-24 pt-14 text-text">
+    <section className="lg:pt-24 pt-14 text-text">
       <div
         className="flex lg:flex-row flex-col-reverse lg:space-x-5 justify-between  2xl:justify-around lg:items-center"
         id="event"
@@ -22,9 +22,10 @@ const Event = () => {
             alt="community"
             width={590}
             height={400}
+            data-aos="fade-right"
           />
         </div>
-        <div>
+        <div data-aos="fade-left">
           <h4 className="text-section text-sm font-medium">
             Tech Event Management
           </h4>

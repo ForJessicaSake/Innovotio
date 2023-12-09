@@ -12,12 +12,12 @@ import comm from "../../../../public/assets/services/cc.jpeg";
 
 const Community = () => {
   return (
-    <section data-aos="zoom-in" className="pt-14 lg:pt-24">
+    <section className="pt-14 lg:pt-24">
       <div
         className="flex lg:flex-row flex-col justify-between  2xl:justify-around lg:items-center text-text"
         id="community"
       >
-        <div>
+        <div data-aos="fade-right">
           <p className="text-section text-sm font-medium">Community</p>
           <h1 className="pt-1 font-medium xl:text-4xl md:text-3xl text-2xl max-w-lg">
             Foster collaboration, share knowledge & innovate
@@ -44,6 +44,7 @@ const Community = () => {
             width={590}
             height={400}
             className="rounded-xl"
+            data-aos="fade-left"
           />
         </div>
       </div>
