@@ -21,7 +21,7 @@ const Header = () => {
       </div>
       <div
         data-aos="zoom-in"
-        className="lg:pt-20 pt-14 flex justify-center items-center animate-pulse"
+        className="lg:pt-20 pt-14 flex justify-center items-center"
       >
         <img
           src="../../../clients.svg"
