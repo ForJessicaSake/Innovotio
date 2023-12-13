@@ -110,7 +110,6 @@ function Footer() {
             <li>
               <a href="mailto:talents@innovotio.com">talents@innovotio.com</a>
             </li>
-            <li>+234 901 32456</li>
           </ul>
         </div>
       </section>
