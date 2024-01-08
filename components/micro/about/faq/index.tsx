@@ -9,7 +9,7 @@ const FaqDropdown = ({ question, answer }: aboutFaqProps) => {
   };
 
   return (
-    <div data-aos="fade-left" className={`mb-5 cursor-pointer ${isOpen && "transition-all ease-in-out delay-200"}`}>
+    <div className={`mb-5 cursor-pointer ${isOpen && "transition-all ease-in-out delay-200"}`}>
       <div
         className=" p-6 rounded-2xl text-text bg-hover"
         onClick={toggleDropdown}

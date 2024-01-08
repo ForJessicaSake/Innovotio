@@ -26,7 +26,7 @@ const Data = [
 const Faqs = () => {
   return (
     <div className="pt-14 lg:pt-24">
-      <div data-aos="fade-right" className="grid grid-cols-1 lg:grid-cols-2 gap-5 ">
+      <div data-aos="zoom-in-right" className="grid grid-cols-1 lg:grid-cols-2 gap-5 ">
         <div className="lg:col-span-1">
           <div>
             <p className="text-section font-medium text-sm">FAQs</p>
