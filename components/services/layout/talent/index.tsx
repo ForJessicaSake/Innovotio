@@ -11,15 +11,12 @@ import JobMarketInsights from "../../../../public/assets/services/jobMarketInsig
 
 const Talent = () => {
   return (
-    <section className="lg:pt-24 pt-14 text-text">
-      <div
-        className="flex lg:flex-row flex-col-reverse lg:space-x-5 justify-between 2xl:justify-around lg:items-center"
-        id="talent"
-      >
+    <section id="talent" className="lg:pt-24 pt-14 text-text">
+      <div className="flex lg:flex-row flex-col-reverse lg:space-x-5 justify-between 2xl:justify-around lg:items-center">
         <div>
           <Image
-            src="../../../../assets/services/talent2.svg"
-            alt="community"
+            src="/assets/services/talent.png"
+            alt="talent"
             width={590}
             height={400}
             data-aos="fade-right"

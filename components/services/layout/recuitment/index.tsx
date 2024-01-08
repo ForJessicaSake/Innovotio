@@ -33,8 +33,8 @@ const Recruitment = () => {
         </div>
         <div>
           <Image
-            src="../../../../assets/services/recruitmentimg.svg"
-            alt="community"
+            src="/assets/services/recruit.png"
+            alt="recruitment"
             width={590}
             height={400}
             data-aos="fade-left"

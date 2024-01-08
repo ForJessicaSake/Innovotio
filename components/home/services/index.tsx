@@ -33,7 +33,7 @@ const Services = () => {
         </div>
       </div>
       <div className="lg:pt-10 pt-5 grid grid-cols-1 lg:grid-cols-3 gap-5">
-        <div className="lg:col-span-2" data-aos="fade-right">
+        <div className="lg:col-span-2" data-aos="zoom-in">
           <ServiceCard
             title="Merchandising"
             route="/services/#merch"
@@ -44,7 +44,7 @@ const Services = () => {
             text="Collaborate with our team to design and curate merchandise tailored to your tech events and brand needs. Whether you're hosting conferences, workshops, or promotional campaigns, we can help you create your identity."
           />
         </div>
-        <div className="col-span-1" data-aos="fade-left">
+        <div className="col-span-1" data-aos="zoom-in">
           <ServiceCard
             title="Recruitment"
             route="/services/#recruitment"
@@ -56,7 +56,7 @@ const Services = () => {
         </div>
       </div>
       <div className="pt-5 grid grid-cols-1 lg:grid-cols-2 gap-5">
-        <div data-aos="fade-right">
+        <div data-aos="zoom-in">
           <ServiceCard
             title="Tech Event Management"
             route="/services/#event"
@@ -66,7 +66,7 @@ const Services = () => {
             illustration="../../.././assets/services/event3.svg"
           />
         </div>
-        <div data-aos="fade-left">
+        <div data-aos="zoom-in">
           <ServiceCard
             title="Consultancy"
             route="/services/#consultancy"
@@ -78,7 +78,7 @@ const Services = () => {
         </div>
       </div>
       <div className="pt-5 grid grid-cols-1 lg:grid-cols-3 gap-5">
-        <div className="lg:col-span-2" data-aos="fade-right">
+        <div className="lg:col-span-2" data-aos="zoom-in">
           <ServiceCard
             title="Tech Talent Management"
             route="/services/#talent"
@@ -89,7 +89,7 @@ const Services = () => {
             text="Train, assess and maintain the quality of talent pool regularly to ensure satisfaction both for businesses and talents."
           />
         </div>
-        <div className="col-span-1" data-aos="fade-left">
+        <div className="col-span-1" data-aos="zoom-in">
           <ServiceCard
             title="Community"
             route="/services/#community"

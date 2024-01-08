@@ -11,15 +11,12 @@ import VendorPlanning from "../../../../public/assets/services/vendorPlanning.sv
 
 const Event = () => {
   return (
-    <section className="lg:pt-24 pt-14 text-text">
-      <div
-        className="flex lg:flex-row flex-col-reverse lg:space-x-5 justify-between  2xl:justify-around lg:items-center"
-        id="event"
-      >
+    <section id="event" className="lg:pt-24 pt-14 text-text">
+      <div className="flex lg:flex-row flex-col-reverse lg:space-x-5 justify-between  2xl:justify-around lg:items-center">
         <div>
           <Image
-            src="../../../../assets/services/Community2.svg"
-            alt="community"
+            src="/assets/services/event.png"
+            alt="event"
             width={590}
             height={400}
             data-aos="fade-right"

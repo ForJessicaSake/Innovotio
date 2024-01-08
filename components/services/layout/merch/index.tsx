@@ -18,9 +18,7 @@ import DiverseOpportunities from "../../../../public/assets/services/diverseOppo
 
 const Merch = () => {
   return (
-    <section
-      className="lg:pt-24 pt-14 text-text"
-    >
+    <section id="merch" className="lg:pt-24 pt-14 text-text">
       <Image
         alt="merchandise"
         width={1060}
@@ -29,10 +27,7 @@ const Merch = () => {
         className="rounded-xl"
         data-aos="fade-right"
       />
-      <div
-        className="flex flex-col py-2 lg:flex-row justify-between space-x-2 2xl:justify-around"
-        id="merch"
-      >
+      <div className="flex flex-col py-2 lg:flex-row justify-between space-x-2 2xl:justify-around">
         <Image
           alt="merchandise"
           width={546}
@@ -48,7 +43,6 @@ const Merch = () => {
           src={collage3}
           className="rounded-xl lg:hidden block my-5 lg:my-0"
           data-aos="fade-right"
-
         />
         <div className=" flex flex-col">
           <h4 className="text-section text-sm font-medium">Merchandising</h4>
