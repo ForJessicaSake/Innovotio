@@ -15,7 +15,7 @@ const CatalogueCard = ({
   const [modal, setModal] = React.useState(false);
   return (
     <section
-      data-aos="zoom-out"
+      // data-aos="zoom-out"
       className="cursor-pointer hover:bg-hover hover:text-white lg:max-w-[425px] max-w-full p-5 justify-center border rounded-2xl border-[#F2F4FC24] border-opacity-10 flex flex-col items-start"
     >
       <div className="flex items-center">

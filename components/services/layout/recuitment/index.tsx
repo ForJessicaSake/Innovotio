@@ -11,11 +11,8 @@ import FlexibleHiringModels from "../../../../public/assets/services/flexibleHir
 
 const Recruitment = () => {
   return (
-    <section className="pt-14 lg:pt-24">
-      <div
-        className="flex lg:flex-row flex-col justify-between  2xl:justify-around lg:items-center text-text"
-        id="recruitment"
-      >
+    <section className="pt-14 lg:pt-24" id="recruitment">
+      <div className="flex lg:flex-row flex-col justify-between  2xl:justify-around lg:items-center text-text">
         <div data-aos="fade-right">
           <h4 className="text-section text-sm font-medium">Recruitment</h4>
           <h1 className="pt-1 font-medium xl:text-4xl md:text-3xl text-2xl md:max-w-lg">
