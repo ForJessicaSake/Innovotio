@@ -5,6 +5,7 @@ import Button from "@/components/micro/button";
 const Header = () => {
   return (
     <header className="lg:pt-10 pt-0">
+         <div  className="w-screen md:w-full background-image  p-6">
       <div className="space-y-5">
         <h1 className="xl:text-[65px] lg:text-5xl md:text-4xl text-3xl font-semibold max-w-md sm:max-w-[480px] lg:max-w-3xl xl:max-w-5xl text-text">
           Get qualified tech talents & event support
@@ -36,6 +37,7 @@ const Header = () => {
           </Link>
         </div>
       </div>
+      </div>
       <div
         data-aos="zoom-in"
         className="lg:pt-20 pt-14 flex justify-center items-center"
@@ -52,6 +54,31 @@ const Header = () => {
         />
       </div>
       <hr className="lg:mt-20 mt-14 opacity-10" />
+      <style jsx>{`
+        .background-image {
+          /*background-image: url("valentines.png"); 
+          background-size: auto;
+          background-repeat: no-repeat;
+          background-position: center;
+          color: white; 
+          height: 100;
+          width: 100%;*/
+          background-image: url("valentine.jpg"); /* Replace 'path/to/your/image.jpg' with your image path */
+          background-size: cover;
+          background-position: center;
+         
+          width: 100%;
+        }
+        
+
+        /* Style for the text or content */
+        .background-image h1,
+        .content {
+          position: relative;
+          z-index: 1; /* Ensure text appears above the overlay */
+        }
+        `}</style>
+
     </header>
   );
 };
