@@ -7,7 +7,7 @@ import { GiPadlock } from "react-icons/gi";
 
 const About = () => {
   return (
-    <nav className="absolute z-20 top-24 lg:max-w-4xl xl:max-w-6xl 2xl:max-w-6xl 2xl:mx-auto 2xl:container 2xl:left-96 right-14  cursor-pointer rounded-xl flex justify-between border border-[#F2F4FC24] border-opacity-10 text-text bg-[#0E1416]">
+    <nav className="absolute top-24 lg:max-w-4xl xl:max-w-6xl 2xl:max-w-6xl 2xl:mx-auto 2xl:container 2xl:left-96 right-14  cursor-pointer rounded-xl flex justify-between border border-[#F2F4FC24] border-opacity-10 text-text bg-[#0E1416]">
       <div className="w-3/6 max-h-full hover:bg-hover overflow-hidden px-8">
         <div className="py-8">
           <h3 className="text-xl mb-3 flex items-center">
