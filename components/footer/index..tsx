@@ -22,7 +22,7 @@ function Footer() {
           </figure>
           <div className="">
             <a target="_blank" href="mailto:talents@innovotio.com">
-              <Button className="my-5 bg-text text-black">Get In Touch</Button>
+              <Button className="my-5 bg-text text-black  hover:bg-section hover:text-black">Get In Touch</Button>
             </a>
           </div>
 

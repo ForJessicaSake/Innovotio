@@ -27,7 +27,7 @@ const Services = () => {
         <div className="pt-5">
           <Link href="/services" legacyBehavior>
             <a target="_blank">
-              <Button className="">Explore Our Services</Button>
+              <Button className=" hover:bg-section hover:text-black">Explore Our Services</Button>
             </a>
           </Link>
         </div>
