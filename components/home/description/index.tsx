@@ -29,7 +29,7 @@ const Description = () => {
           </p>
           <div>
             <Link href="/services" legacyBehavior>
-                <Button className="hover:bg-primaryYellow flex items-center justify-center">
+                <Button className="hover:bg-section hover:text-black flex items-center justify-center">
                   Experience Us <BsArrowRight className="ml-2 text-lg" />
                 </Button>
             </Link>
