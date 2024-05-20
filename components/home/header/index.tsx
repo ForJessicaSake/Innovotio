@@ -28,7 +28,7 @@ const Header = () => {
             target="_blank"
             className="w-full"
           >
-            <p className="text-[#FCFCFC]  flex items-center justify-center">
+            <p className="text-[#FCFCFC] flex items-center justify-center  join">
               <span className="pr-2">
                 <MdGroups className="text-2xl" />
               </span>
@@ -54,6 +54,21 @@ const Header = () => {
       </div>
     
       <hr className="lg:mt-20 mt-14 opacity-10" />
+
+      <style jsx>{`
+        
+        .join::after {
+          content: "";
+          display: block;
+          border-bottom: solid 3px #FFCC00;
+          padding-bottom: 1%;
+          transform: scaleX(0);
+          transition: transform 300ms ease-in-out;
+        }
+        .join:hover:after {
+          transform: scaleX(1);
+        }
+      `}</style>
       
     </header>
   );
