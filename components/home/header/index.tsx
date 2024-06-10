@@ -28,7 +28,7 @@ const Header = () => {
             target="_blank"
             className="w-full"
           >
-            <p className="text-[#FCFCFC] flex items-center justify-center  join">
+            <p className="join text-[#FCFCFC] flex items-center justify-center ">
               <span className="pr-2">
                 <MdGroups className="text-2xl" />
               </span>
@@ -60,8 +60,8 @@ const Header = () => {
         .join::after {
           content: "";
           display: block;
-          border-bottom: solid 3px #FFCC00;
-          padding-bottom: 1%;
+          border-block-end: solid 4px #FFCC00;
+          padding-block-end: 1%;
           transform: scaleX(0);
           transition: transform 300ms ease-in-out;
         }
