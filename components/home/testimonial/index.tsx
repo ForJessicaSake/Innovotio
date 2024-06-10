@@ -49,12 +49,12 @@ const Testimonial = () => {
             delay: 8000,
             disableOnInteraction: false,
           }}
-          navigation={true}
+          navigation={false}
           modules={[FreeMode, Autoplay, Navigation]}
-          className="max-w-[100%] lg:max-w-[100%]"
+          className="max-w-[100%] lg:max-w-[100%] "
         >
           {data.map((client) => (
-            <SwiperSlide key={client.name}>
+            <SwiperSlide key={client.name} >
               <div className="md:mx-20 mx-14 xl:text-start text-center">
                 <div className="pb-8 flex justify-center xl:justify-normal">
                   <Image alt="quotation mark" src={Quotation} width={60} />
