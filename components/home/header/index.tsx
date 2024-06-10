@@ -44,12 +44,12 @@ const Header = () => {
         <img
           src="../../../clients.svg"
           alt="brands"
-          className="w-full h-10 sm:block hidden"
+          className=" sm:block hidden"
         />
         <img
           src="../../../clients-mobile.svg"
           alt="brands"
-          className="w-96 h-36 sm:hidden block"
+          className=" sm:hidden block"
         />
       </div>
     
