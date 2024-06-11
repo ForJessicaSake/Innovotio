@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer className="mx-auto container md:p-10 p-5 text-text cursor-pointer">
       <h1 className="lg:max-w-2xl max-w-lg lg:text-4xl xl:text-[44px] text-3xl tracking-wide font-medium">
-        Your one stop for <span className="text-section">talent,</span> event{" "}
+        Your one stop for <span className="text-section">tech talent,</span> event{" "}
         <span className="text-section">and </span> merchandise
       </h1>
       <section className="w-12/12 flex lg:flex-row flex-col-reverse pt-14 lg:pt-20">
@@ -94,6 +94,9 @@ function Footer() {
               <Link href="/services/#consultancy">Merchandising</Link>
             </li>
             <li>
+              <Link href="/programstraining">Programs</Link>
+            </li>
+            <li>
               <Link href="/services/#community">Community</Link>
             </li>
           </ul>
@@ -108,7 +111,7 @@ function Footer() {
           <ul className="space-y-5 w-96">
             <li className="text-[#A3A3A3]">Contact Us</li>
             <li>
-              <a href="mailto:talents@innovotio.com">talents@innovotio.com</a>
+              <a href="mailto:hiring.innovotio@gmail.com">hiring.innovotio@gmail.com</a>
             </li>
           </ul>
         </div>

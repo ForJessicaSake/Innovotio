@@ -28,7 +28,7 @@ const Header = () => {
             target="_blank"
             className="w-full"
           >
-            <p className="join text-[#FCFCFC] flex items-center justify-center ">
+            <p className=" text-[#FCFCFC] flex items-center justify-center underline-hover">
               <span className="pr-2">
                 <MdGroups className="text-2xl" />
               </span>
