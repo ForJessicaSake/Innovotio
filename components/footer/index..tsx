@@ -21,7 +21,7 @@ function Footer() {
             />
           </figure>
           <div className="">
-            <a target="_blank" href="mailto:talents@innovotio.com">
+            <a target="_blank" href="mailto:innovotioworkforce@gmail.com">
               <Button className="my-5 bg-text text-black hover:bg-section hover:text-black">Get In Touch</Button>
             </a>
           </div>
@@ -111,7 +111,7 @@ function Footer() {
           <ul className="space-y-5 w-96">
             <li className="text-[#A3A3A3]">Contact Us</li>
             <li>
-              <a href="mailto:hiring.innovotio@gmail.com">hiring.innovotio@gmail.com</a>
+              <a href="mailto:innovotioworkforce@gmail.com">innovotioworkforce@gmail.com</a>
             </li>
           </ul>
         </div>
